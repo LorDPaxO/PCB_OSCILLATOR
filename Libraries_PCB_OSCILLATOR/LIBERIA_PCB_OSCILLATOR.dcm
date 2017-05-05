@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD8421
+D Low Power Instrumentation Amplifier
+K 8 ld MSOP
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8421.pdf
+$ENDCMP
+#
 $CMP AD9833
 D Generador de señales 
 K 10 ld MSOP

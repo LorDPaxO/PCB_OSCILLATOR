@@ -245,6 +245,197 @@ F 3 "" H 1210 4480 50  0000 C CNN
 	1    1210 4480
 	1    0    0    1   
 $EndComp
+Text Label 1210 4680 2    60   ~ 0
+GND
+Text Label 2840 4620 2    60   ~ 0
+GND
+Text Label 3180 4330 2    60   ~ 0
+MCLK_DDS_1
+$Comp
+L R_Small R?
+U 1 1 590D280D
+P 1860 2830
+F 0 "R?" H 1890 2850 50  0000 L CNN
+F 1 "0R" H 1890 2790 50  0000 L CNN
+F 2 "" H 1860 2830 50  0000 C CNN
+F 3 "" H 1860 2830 50  0000 C CNN
+	1    1860 2830
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 590D28C6
+P 1860 2650
+F 0 "R?" H 1890 2670 50  0000 L CNN
+F 1 "0R" H 1890 2610 50  0000 L CNN
+F 2 "" H 1860 2650 50  0000 C CNN
+F 3 "" H 1860 2650 50  0000 C CNN
+	1    1860 2650
+	0    1    1    0   
+$EndComp
+Text Label 1100 2830 0    60   ~ 0
+MCLK_DDS_1
+Text Label 1100 2650 0    60   ~ 0
+MCLK_EXTERNAL
+$Comp
+L KC5032A CLK?
+U 1 1 590D5CFE
+P 2060 5260
+F 0 "CLK?" H 2060 5460 60  0000 C CNN
+F 1 "KC5032A" H 2060 5260 60  0000 C CNN
+F 2 "" H 2000 5270 60  0000 C CNN
+F 3 "" H 2000 5270 60  0000 C CNN
+	1    2060 5260
+	1    0    0    -1  
+$EndComp
+Text Label 1110 5120 0    60   ~ 0
+VDD
+$Comp
+L C_Small C?
+U 1 1 590D5D05
+P 1210 5270
+F 0 "C?" H 1220 5340 50  0000 L CNN
+F 1 "0.1uF" H 1220 5190 50  0000 L CNN
+F 2 "" H 1210 5270 50  0000 C CNN
+F 3 "" H 1210 5270 50  0000 C CNN
+	1    1210 5270
+	1    0    0    1   
+$EndComp
+Text Label 1210 5470 2    60   ~ 0
+GND
+Text Label 2840 5410 2    60   ~ 0
+GND
+Text Label 3180 5120 2    60   ~ 0
+MCLK_DDS_2
+Text Notes 1200 3980 0    60   ~ 0
+OSCILADORES
+Text Notes 1820 4200 0    60   ~ 0
+CLOK_DDS_1
+Text Notes 1790 5000 0    60   ~ 0
+CLOK_DDS_2
+$Comp
+L AD8421 U?
+U 1 1 590DC550
+P 5350 4690
+F 0 "U?" H 5130 5000 60  0000 C CNN
+F 1 "AD8421" H 5340 4620 60  0000 C CNN
+F 2 "" H 5180 4390 60  0000 C CNN
+F 3 "" H 5180 4390 60  0000 C CNN
+	1    5350 4690
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 590DEAA7
+P 3910 2610
+F 0 "R?" H 3940 2630 50  0000 L CNN
+F 1 "0R" H 3940 2570 50  0000 L CNN
+F 2 "" H 3910 2610 50  0000 C CNN
+F 3 "" H 3910 2610 50  0000 C CNN
+	1    3910 2610
+	0    1    1    0   
+$EndComp
+Text Label 5390 3990 3    60   ~ 0
++18V
+Text Label 5390 5390 1    60   ~ 0
+-18V
+Text Label 5610 5390 1    60   ~ 0
+GND
+$Comp
+L R_Small R?
+U 1 1 590E18C9
+P 6090 4720
+F 0 "R?" H 6120 4740 50  0000 L CNN
+F 1 "0R" H 6120 4680 50  0000 L CNN
+F 2 "" H 6090 4720 50  0000 C CNN
+F 3 "" H 6090 4720 50  0000 C CNN
+	1    6090 4720
+	0    1    1    0   
+$EndComp
+Text Label 4090 3210 1    60   ~ 0
+WAVE_DDS_1
+Text Label 4230 4500 0    60   ~ 0
+WAVE_DDS_1
+Text Label 4650 5100 1    60   ~ 0
+GND
+$Comp
+L R_Small R?
+U 1 1 590E4F78
+P 4630 4650
+F 0 "R?" V 4600 4730 50  0000 L CNN
+F 1 "0R" V 4570 4570 50  0000 L CNN
+F 2 "" H 4630 4650 50  0000 C CNN
+F 3 "" H 4630 4650 50  0000 C CNN
+	1    4630 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 590E5155
+P 4630 4750
+F 0 "R?" V 4670 4840 50  0000 L CNN
+F 1 "0R" V 4700 4670 50  0000 L CNN
+F 2 "" H 4630 4750 50  0000 C CNN
+F 3 "" H 4630 4750 50  0000 C CNN
+	1    4630 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590E674E
+P 5530 4060
+F 0 "C?" H 5540 4130 50  0000 L CNN
+F 1 "0.1uF" V 5480 4110 50  0000 L CNN
+F 2 "" H 5530 4060 50  0000 C CNN
+F 3 "" H 5530 4060 50  0000 C CNN
+	1    5530 4060
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590E681B
+P 5700 4060
+F 0 "C?" H 5710 4130 50  0000 L CNN
+F 1 "10uF" H 5730 3980 50  0000 L CNN
+F 2 "" H 5700 4060 50  0000 C CNN
+F 3 "" H 5700 4060 50  0000 C CNN
+	1    5700 4060
+	1    0    0    -1  
+$EndComp
+Text Label 5530 3890 0    60   ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 590E8829
+P 5200 5400
+F 0 "C?" H 5210 5470 50  0000 L CNN
+F 1 "0.1uF" V 5150 5450 50  0000 L CNN
+F 2 "" H 5200 5400 50  0000 C CNN
+F 3 "" H 5200 5400 50  0000 C CNN
+	1    5200 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590E882F
+P 5030 5400
+F 0 "C?" H 5040 5470 50  0000 L CNN
+F 1 "10uF" H 5060 5320 50  0000 L CNN
+F 2 "" H 5030 5400 50  0000 C CNN
+F 3 "" H 5030 5400 50  0000 C CNN
+	1    5030 5400
+	-1   0    0    1   
+$EndComp
+Text Label 5200 5570 2    60   ~ 0
+GND
+Text Notes 3960 3830 0    60   ~ 0
+PREAMPLIFICADOR
+Text Notes 4290 4170 0    60   ~ 0
+Vin: 650mV Peak\nVout: 2-3 V Peak
+Text Label 3980 4650 0    60   ~ 0
+A_AD5270_1
+Text Label 3980 4750 0    60   ~ 0
+W_AD5270_1
 Wire Wire Line
 	1510 2200 2120 2200
 Wire Wire Line
@@ -284,8 +475,6 @@ Wire Wire Line
 Wire Wire Line
 	2190 1480 2030 1480
 Connection ~ 2190 1480
-Wire Wire Line
-	3430 2610 4020 2610
 Wire Wire Line
 	3660 2690 3660 2610
 Connection ~ 3660 2610
@@ -369,34 +558,6 @@ Wire Wire Line
 Connection ~ 1210 4330
 Wire Wire Line
 	1210 4580 1210 4680
-Text Label 1210 4680 2    60   ~ 0
-GND
-Text Label 2840 4620 2    60   ~ 0
-GND
-Text Label 3180 4330 2    60   ~ 0
-MCLK_DDS_1
-$Comp
-L R_Small R?
-U 1 1 590D280D
-P 1860 2830
-F 0 "R?" H 1890 2850 50  0000 L CNN
-F 1 "0R" H 1890 2790 50  0000 L CNN
-F 2 "" H 1860 2830 50  0000 C CNN
-F 3 "" H 1860 2830 50  0000 C CNN
-	1    1860 2830
-	0    1    1    0   
-$EndComp
-$Comp
-L R_Small R?
-U 1 1 590D28C6
-P 1860 2650
-F 0 "R?" H 1890 2670 50  0000 L CNN
-F 1 "0R" H 1890 2610 50  0000 L CNN
-F 2 "" H 1860 2650 50  0000 C CNN
-F 3 "" H 1860 2650 50  0000 C CNN
-	1    1860 2650
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2120 2720 2050 2720
 Wire Wire Line
@@ -410,38 +571,10 @@ Wire Wire Line
 	1100 2650 1760 2650
 Wire Wire Line
 	1100 2830 1760 2830
-Text Label 1100 2830 0    60   ~ 0
-MCLK_DDS_1
-Text Label 1100 2650 0    60   ~ 0
-MCLK_EXTERNAL
 Wire Notes Line
 	850  3340 850  1080
 Wire Notes Line
 	850  1080 1310 1080
-$Comp
-L KC5032A CLK?
-U 1 1 590D5CFE
-P 2060 5260
-F 0 "CLK?" H 2060 5460 60  0000 C CNN
-F 1 "KC5032A" H 2060 5260 60  0000 C CNN
-F 2 "" H 2000 5270 60  0000 C CNN
-F 3 "" H 2000 5270 60  0000 C CNN
-	1    2060 5260
-	1    0    0    -1  
-$EndComp
-Text Label 1110 5120 0    60   ~ 0
-VDD
-$Comp
-L C_Small C?
-U 1 1 590D5D05
-P 1210 5270
-F 0 "C?" H 1220 5340 50  0000 L CNN
-F 1 "0.1uF" H 1220 5190 50  0000 L CNN
-F 2 "" H 1210 5270 50  0000 C CNN
-F 3 "" H 1210 5270 50  0000 C CNN
-	1    1210 5270
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	1110 5120 1520 5120
 Wire Wire Line
@@ -458,18 +591,6 @@ Wire Wire Line
 Connection ~ 1210 5120
 Wire Wire Line
 	1210 5370 1210 5470
-Text Label 1210 5470 2    60   ~ 0
-GND
-Text Label 2840 5410 2    60   ~ 0
-GND
-Text Label 3180 5120 2    60   ~ 0
-MCLK_DDS_2
-Text Notes 1200 3980 0    60   ~ 0
-OSCILADORES
-Text Notes 1820 4200 0    60   ~ 0
-CLOK_DDS_1
-Text Notes 1790 5000 0    60   ~ 0
-CLOK_DDS_2
 Wire Notes Line
 	930  3840 3310 3840
 Wire Notes Line
@@ -478,4 +599,244 @@ Wire Notes Line
 	3310 5620 930  5620
 Wire Notes Line
 	930  5620 930  3840
+Wire Wire Line
+	5390 4220 5390 3990
+Wire Wire Line
+	5390 5220 5390 5390
+Wire Wire Line
+	5610 5220 5610 5390
+Wire Wire Line
+	3430 2610 3810 2610
+Wire Wire Line
+	4010 2610 4090 2610
+Wire Wire Line
+	4090 2610 4090 3210
+Wire Wire Line
+	5990 4720 5900 4720
+Wire Wire Line
+	6190 4720 6360 4720
+Wire Wire Line
+	4790 4500 4230 4500
+Wire Wire Line
+	4790 4910 4650 4910
+Wire Wire Line
+	4650 4910 4650 5100
+Wire Wire Line
+	4730 4650 4790 4650
+Wire Wire Line
+	4790 4750 4730 4750
+Wire Wire Line
+	3980 4650 4530 4650
+Wire Wire Line
+	3980 4750 4530 4750
+Wire Wire Line
+	5700 4160 5700 4200
+Wire Wire Line
+	5700 4200 5390 4200
+Connection ~ 5390 4200
+Wire Wire Line
+	5530 4160 5530 4200
+Connection ~ 5530 4200
+Wire Wire Line
+	5530 3960 5530 3890
+Wire Wire Line
+	5530 3890 5700 3890
+Wire Wire Line
+	5700 3890 5700 3960
+Wire Wire Line
+	5200 5500 5200 5570
+Wire Wire Line
+	5200 5570 5030 5570
+Wire Wire Line
+	5030 5570 5030 5500
+Wire Wire Line
+	5030 5300 5030 5240
+Wire Wire Line
+	5030 5240 5390 5240
+Connection ~ 5390 5240
+Wire Wire Line
+	5200 5300 5200 5240
+Connection ~ 5200 5240
+Wire Notes Line
+	3880 3700 6450 3700
+Wire Notes Line
+	6450 3700 6450 5710
+Wire Notes Line
+	6450 5710 4080 5710
+Wire Notes Line
+	3880 5710 4090 5710
+Wire Notes Line
+	3880 3700 3880 5710
+$Comp
+L AD8421 U?
+U 1 1 590F1992
+P 8150 4690
+F 0 "U?" H 7930 5000 60  0000 C CNN
+F 1 "AD8421" H 8140 4620 60  0000 C CNN
+F 2 "" H 7980 4390 60  0000 C CNN
+F 3 "" H 7980 4390 60  0000 C CNN
+	1    8150 4690
+	1    0    0    -1  
+$EndComp
+Text Label 8190 3990 3    60   ~ 0
++18V
+Text Label 8190 5390 1    60   ~ 0
+-18V
+Text Label 8410 5390 1    60   ~ 0
+GND
+$Comp
+L R_Small R?
+U 1 1 590F199B
+P 8890 4720
+F 0 "R?" H 8920 4740 50  0000 L CNN
+F 1 "0R" H 8920 4680 50  0000 L CNN
+F 2 "" H 8890 4720 50  0000 C CNN
+F 3 "" H 8890 4720 50  0000 C CNN
+	1    8890 4720
+	0    1    1    0   
+$EndComp
+Text Label 6780 4500 0    60   ~ 0
+MODULATED_WAVE
+Text Label 7450 5100 1    60   ~ 0
+GND
+$Comp
+L R_Small R?
+U 1 1 590F19A3
+P 7430 4650
+F 0 "R?" V 7400 4730 50  0000 L CNN
+F 1 "0R" V 7370 4570 50  0000 L CNN
+F 2 "" H 7430 4650 50  0000 C CNN
+F 3 "" H 7430 4650 50  0000 C CNN
+	1    7430 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 590F19A9
+P 7430 4750
+F 0 "R?" V 7470 4840 50  0000 L CNN
+F 1 "0R" V 7500 4670 50  0000 L CNN
+F 2 "" H 7430 4750 50  0000 C CNN
+F 3 "" H 7430 4750 50  0000 C CNN
+	1    7430 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590F19AF
+P 8330 4060
+F 0 "C?" H 8340 4130 50  0000 L CNN
+F 1 "0.1uF" V 8280 4110 50  0000 L CNN
+F 2 "" H 8330 4060 50  0000 C CNN
+F 3 "" H 8330 4060 50  0000 C CNN
+	1    8330 4060
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590F19B5
+P 8500 4060
+F 0 "C?" H 8510 4130 50  0000 L CNN
+F 1 "10uF" H 8530 3980 50  0000 L CNN
+F 2 "" H 8500 4060 50  0000 C CNN
+F 3 "" H 8500 4060 50  0000 C CNN
+	1    8500 4060
+	1    0    0    -1  
+$EndComp
+Text Label 8330 3890 0    60   ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 590F19BC
+P 8000 5400
+F 0 "C?" H 8010 5470 50  0000 L CNN
+F 1 "0.1uF" V 7950 5450 50  0000 L CNN
+F 2 "" H 8000 5400 50  0000 C CNN
+F 3 "" H 8000 5400 50  0000 C CNN
+	1    8000 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590F19C2
+P 7830 5400
+F 0 "C?" H 7840 5470 50  0000 L CNN
+F 1 "10uF" H 7860 5320 50  0000 L CNN
+F 2 "" H 7830 5400 50  0000 C CNN
+F 3 "" H 7830 5400 50  0000 C CNN
+	1    7830 5400
+	-1   0    0    1   
+$EndComp
+Text Label 8000 5570 2    60   ~ 0
+GND
+Text Notes 6760 3830 0    60   ~ 0
+AMPLIFICADOR
+Text Notes 7090 4170 0    60   ~ 0
+Vin: 2-3V Peak\nVout: 5-15 V Peak
+Text Label 6780 4650 0    60   ~ 0
+A_AD5270_2
+Text Label 6780 4750 0    60   ~ 0
+W_AD5270_2
+Wire Wire Line
+	8190 4220 8190 3990
+Wire Wire Line
+	8190 5220 8190 5390
+Wire Wire Line
+	8410 5220 8410 5390
+Wire Wire Line
+	8790 4720 8700 4720
+Wire Wire Line
+	8990 4720 9160 4720
+Wire Wire Line
+	6780 4500 7590 4500
+Wire Wire Line
+	7590 4910 7450 4910
+Wire Wire Line
+	7450 4910 7450 5100
+Wire Wire Line
+	7530 4650 7590 4650
+Wire Wire Line
+	7590 4750 7530 4750
+Wire Wire Line
+	6780 4650 7330 4650
+Wire Wire Line
+	6780 4750 7330 4750
+Wire Wire Line
+	8500 4160 8500 4200
+Wire Wire Line
+	8500 4200 8190 4200
+Connection ~ 8190 4200
+Wire Wire Line
+	8330 4160 8330 4200
+Connection ~ 8330 4200
+Wire Wire Line
+	8330 3960 8330 3890
+Wire Wire Line
+	8330 3890 8500 3890
+Wire Wire Line
+	8500 3890 8500 3960
+Wire Wire Line
+	8000 5500 8000 5570
+Wire Wire Line
+	8000 5570 7830 5570
+Wire Wire Line
+	7830 5570 7830 5500
+Wire Wire Line
+	7830 5300 7830 5240
+Wire Wire Line
+	7830 5240 8190 5240
+Connection ~ 8190 5240
+Wire Wire Line
+	8000 5300 8000 5240
+Connection ~ 8000 5240
+Wire Notes Line
+	6680 3700 9250 3700
+Wire Notes Line
+	9250 3700 9250 5710
+Wire Notes Line
+	9250 5710 6880 5710
+Wire Notes Line
+	6680 5710 6890 5710
+Wire Notes Line
+	6680 3700 6680 5710
 $EndSCHEMATC
