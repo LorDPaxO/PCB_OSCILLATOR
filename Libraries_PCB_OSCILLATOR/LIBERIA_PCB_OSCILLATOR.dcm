@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD5270
+D 1024-Position, 1% Resistor Tolerance Error, SPI Interface and 50-TP Memory Digital Rheostat
+K 10 ld MSOP
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD5270.pdf
+$ENDCMP
+#
 $CMP AD8421
 D Low Power Instrumentation Amplifier
 K 8 ld MSOP
