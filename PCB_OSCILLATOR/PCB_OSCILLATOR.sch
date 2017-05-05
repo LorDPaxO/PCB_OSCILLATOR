@@ -1,0 +1,338 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LIBERIA_PCB_OSCILLATOR
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AD9833 U?
+U 1 1 590C9273
+P 2790 2380
+F 0 "U?" H 2770 2650 60  0000 C CNN
+F 1 "AD9833" H 2760 2250 60  0000 C CNN
+F 2 "" H 2590 2410 60  0000 C CNN
+F 3 "" H 2590 2410 60  0000 C CNN
+	1    2790 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1510 2200 2120 2200
+Wire Wire Line
+	1510 2310 2120 2310
+Wire Wire Line
+	1510 2420 2120 2420
+Wire Wire Line
+	1520 2720 2120 2720
+Wire Wire Line
+	2870 3120 2870 3300
+Wire Wire Line
+	2700 3120 2700 3300
+Text Label 2700 3250 1    60   ~ 0
+GND
+Text Label 2870 3240 1    60   ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 590C9F0A
+P 3570 2150
+F 0 "C?" H 3580 2220 50  0000 L CNN
+F 1 "0.01uF" H 3580 2070 50  0000 L CNN
+F 2 "" H 3570 2150 50  0000 C CNN
+F 3 "" H 3570 2150 50  0000 C CNN
+	1    3570 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3470 2150 3430 2150
+Wire Wire Line
+	3670 2150 3800 2150
+Text Label 3700 2150 0    60   ~ 0
+VDD
+Wire Wire Line
+	3020 1700 3020 1490
+Text Label 3020 1650 1    60   ~ 0
+VDD
+$Comp
+L C_Small C?
+U 1 1 590CA46B
+P 3410 1700
+F 0 "C?" H 3420 1770 50  0000 L CNN
+F 1 "0.1uF" H 3420 1620 50  0000 L CNN
+F 2 "" H 3410 1700 50  0000 C CNN
+F 3 "" H 3410 1700 50  0000 C CNN
+	1    3410 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3410 1560 3410 1600
+Wire Wire Line
+	3410 1560 3020 1560
+Connection ~ 3020 1560
+Wire Wire Line
+	3410 1800 3410 1910
+Text Label 3410 1910 0    60   ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 590CA780
+P 2350 1640
+F 0 "C?" V 2290 1520 50  0000 L CNN
+F 1 "0.1uF" V 2490 1570 50  0000 L CNN
+F 2 "" H 2350 1640 50  0000 C CNN
+F 3 "" H 2350 1640 50  0000 C CNN
+	1    2350 1640
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590CA8BB
+P 2350 1360
+F 0 "C?" V 2280 1220 50  0000 L CNN
+F 1 "10uF" V 2440 1370 50  0000 L CNN
+F 2 "" H 2350 1360 50  0000 C CNN
+F 3 "" H 2350 1360 50  0000 C CNN
+	1    2350 1360
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1360 2620 1360
+Wire Wire Line
+	2620 1360 2620 1700
+Wire Wire Line
+	2450 1640 2620 1640
+Connection ~ 2620 1640
+Wire Wire Line
+	2250 1640 2190 1640
+Wire Wire Line
+	2190 1640 2190 1360
+Wire Wire Line
+	2190 1360 2250 1360
+Wire Wire Line
+	2190 1480 2030 1480
+Connection ~ 2190 1480
+Text Label 2030 1480 0    60   ~ 0
+GND
+Text Label 1520 2720 0    60   ~ 0
+MCLK_DDS_1
+Text Label 1510 2200 0    60   ~ 0
+SCLK_DDS_1
+Text Label 1510 2310 0    60   ~ 0
+SDATA_DDS_1
+Text Label 1510 2420 0    60   ~ 0
+FSYNK_DDS_1
+Wire Wire Line
+	3430 2610 4020 2610
+$Comp
+L C_Small C?
+U 1 1 590CB879
+P 3660 2790
+F 0 "C?" H 3670 2860 50  0000 L CNN
+F 1 "20pF" H 3670 2710 50  0000 L CNN
+F 2 "" H 3660 2790 50  0000 C CNN
+F 3 "" H 3660 2790 50  0000 C CNN
+	1    3660 2790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3660 2690 3660 2610
+Connection ~ 3660 2610
+Wire Wire Line
+	3660 2890 3660 3020
+Text Label 3660 3020 0    60   ~ 0
+GND
+Text Notes 1400 1220 0    60   ~ 0
+GENERADOR DE SEÑALES PRINCIPAL (DDS_1 500KHz)\n
+Wire Notes Line
+	1300 1080 1300 3340
+Wire Notes Line
+	1300 3340 4180 3340
+Wire Notes Line
+	4180 3340 4180 1080
+Wire Notes Line
+	4180 1080 1300 1080
+$Comp
+L AD9833 U?
+U 1 1 590CC6A1
+P 6170 2380
+F 0 "U?" H 6150 2650 60  0000 C CNN
+F 1 "AD9833" H 6140 2250 60  0000 C CNN
+F 2 "" H 5970 2410 60  0000 C CNN
+F 3 "" H 5970 2410 60  0000 C CNN
+	1    6170 2380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4890 2200 5500 2200
+Wire Wire Line
+	4890 2310 5500 2310
+Wire Wire Line
+	4890 2420 5500 2420
+Wire Wire Line
+	4890 2720 5500 2720
+Wire Wire Line
+	6250 3120 6250 3300
+Wire Wire Line
+	6080 3120 6080 3300
+Text Label 6080 3250 1    60   ~ 0
+GND
+Text Label 6250 3240 1    60   ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 590CC6AF
+P 6950 2150
+F 0 "C?" H 6960 2220 50  0000 L CNN
+F 1 "0.01uF" H 6960 2070 50  0000 L CNN
+F 2 "" H 6950 2150 50  0000 C CNN
+F 3 "" H 6950 2150 50  0000 C CNN
+	1    6950 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 2150 6810 2150
+Wire Wire Line
+	7050 2150 7180 2150
+Text Label 7080 2150 0    60   ~ 0
+VDD
+Wire Wire Line
+	6400 1700 6400 1490
+Text Label 6400 1650 1    60   ~ 0
+VDD
+$Comp
+L C_Small C?
+U 1 1 590CC6BA
+P 6790 1700
+F 0 "C?" H 6800 1770 50  0000 L CNN
+F 1 "0.1uF" H 6800 1620 50  0000 L CNN
+F 2 "" H 6790 1700 50  0000 C CNN
+F 3 "" H 6790 1700 50  0000 C CNN
+	1    6790 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6790 1560 6790 1600
+Wire Wire Line
+	6790 1560 6400 1560
+Connection ~ 6400 1560
+Wire Wire Line
+	6790 1800 6790 1910
+Text Label 6790 1910 0    60   ~ 0
+GND
+$Comp
+L C_Small C?
+U 1 1 590CC6C5
+P 5730 1640
+F 0 "C?" V 5670 1520 50  0000 L CNN
+F 1 "0.1uF" V 5870 1570 50  0000 L CNN
+F 2 "" H 5730 1640 50  0000 C CNN
+F 3 "" H 5730 1640 50  0000 C CNN
+	1    5730 1640
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 590CC6CB
+P 5730 1360
+F 0 "C?" V 5660 1220 50  0000 L CNN
+F 1 "10uF" V 5820 1370 50  0000 L CNN
+F 2 "" H 5730 1360 50  0000 C CNN
+F 3 "" H 5730 1360 50  0000 C CNN
+	1    5730 1360
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5830 1360 6000 1360
+Wire Wire Line
+	6000 1360 6000 1700
+Wire Wire Line
+	5830 1640 6000 1640
+Connection ~ 6000 1640
+Wire Wire Line
+	5630 1640 5570 1640
+Wire Wire Line
+	5570 1640 5570 1360
+Wire Wire Line
+	5570 1360 5630 1360
+Wire Wire Line
+	5570 1480 5410 1480
+Connection ~ 5570 1480
+Text Label 5410 1480 0    60   ~ 0
+GND
+Text Label 4890 2720 0    60   ~ 0
+MCLK_DDS_2
+Text Label 4890 2200 0    60   ~ 0
+SCLK_DDS_2
+Text Label 4890 2310 0    60   ~ 0
+SDATA_DDS_2
+Text Label 4890 2420 0    60   ~ 0
+FSYNK_DDS_2
+Wire Wire Line
+	6810 2610 7400 2610
+$Comp
+L C_Small C?
+U 1 1 590CC6E0
+P 7040 2790
+F 0 "C?" H 7050 2860 50  0000 L CNN
+F 1 "20pF" H 7050 2710 50  0000 L CNN
+F 2 "" H 7040 2790 50  0000 C CNN
+F 3 "" H 7040 2790 50  0000 C CNN
+	1    7040 2790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7040 2690 7040 2610
+Connection ~ 7040 2610
+Wire Wire Line
+	7040 2890 7040 3020
+Text Label 7040 3020 0    60   ~ 0
+GND
+Text Notes 4780 1220 0    60   ~ 0
+GENERADOR DE SEÑALES AUXILIAR (DDS_2 4KHz)\n
+Wire Notes Line
+	4680 1080 4680 3340
+Wire Notes Line
+	4680 3340 7560 3340
+Wire Notes Line
+	7560 3340 7560 1080
+Wire Notes Line
+	7560 1080 4680 1080
+$EndSCHEMATC

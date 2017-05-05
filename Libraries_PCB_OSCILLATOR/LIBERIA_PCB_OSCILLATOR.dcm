@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9833
+D Generador de señales 
+K 10 ld MSOP
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD9833.pdf
+$ENDCMP
+#
+#End Doc Library
