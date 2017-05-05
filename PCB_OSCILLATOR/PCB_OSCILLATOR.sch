@@ -54,18 +54,6 @@ F 3 "" H 2590 2410 60  0000 C CNN
 	1    2790 2380
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1510 2200 2120 2200
-Wire Wire Line
-	1510 2310 2120 2310
-Wire Wire Line
-	1510 2420 2120 2420
-Wire Wire Line
-	1520 2720 2120 2720
-Wire Wire Line
-	2870 3120 2870 3300
-Wire Wire Line
-	2700 3120 2700 3300
 Text Label 2700 3250 1    60   ~ 0
 GND
 Text Label 2870 3240 1    60   ~ 0
@@ -81,14 +69,8 @@ F 3 "" H 3570 2150 50  0000 C CNN
 	1    3570 2150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3470 2150 3430 2150
-Wire Wire Line
-	3670 2150 3800 2150
 Text Label 3700 2150 0    60   ~ 0
 VDD
-Wire Wire Line
-	3020 1700 3020 1490
 Text Label 3020 1650 1    60   ~ 0
 VDD
 $Comp
@@ -102,13 +84,6 @@ F 3 "" H 3410 1700 50  0000 C CNN
 	1    3410 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3410 1560 3410 1600
-Wire Wire Line
-	3410 1560 3020 1560
-Connection ~ 3020 1560
-Wire Wire Line
-	3410 1800 3410 1910
 Text Label 3410 1910 0    60   ~ 0
 GND
 $Comp
@@ -133,34 +108,14 @@ F 3 "" H 2350 1360 50  0000 C CNN
 	1    2350 1360
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2450 1360 2620 1360
-Wire Wire Line
-	2620 1360 2620 1700
-Wire Wire Line
-	2450 1640 2620 1640
-Connection ~ 2620 1640
-Wire Wire Line
-	2250 1640 2190 1640
-Wire Wire Line
-	2190 1640 2190 1360
-Wire Wire Line
-	2190 1360 2250 1360
-Wire Wire Line
-	2190 1480 2030 1480
-Connection ~ 2190 1480
 Text Label 2030 1480 0    60   ~ 0
 GND
-Text Label 1520 2720 0    60   ~ 0
-MCLK_DDS_1
 Text Label 1510 2200 0    60   ~ 0
 SCLK_DDS_1
 Text Label 1510 2310 0    60   ~ 0
 SDATA_DDS_1
 Text Label 1510 2420 0    60   ~ 0
 FSYNK_DDS_1
-Wire Wire Line
-	3430 2610 4020 2610
 $Comp
 L C_Small C?
 U 1 1 590CB879
@@ -172,23 +127,10 @@ F 3 "" H 3660 2790 50  0000 C CNN
 	1    3660 2790
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3660 2690 3660 2610
-Connection ~ 3660 2610
-Wire Wire Line
-	3660 2890 3660 3020
 Text Label 3660 3020 0    60   ~ 0
 GND
-Text Notes 1400 1220 0    60   ~ 0
+Text Notes 1010 1220 0    60   ~ 0
 GENERADOR DE SEÑALES PRINCIPAL (DDS_1 500KHz)\n
-Wire Notes Line
-	1300 1080 1300 3340
-Wire Notes Line
-	1300 3340 4180 3340
-Wire Notes Line
-	4180 3340 4180 1080
-Wire Notes Line
-	4180 1080 1300 1080
 $Comp
 L AD9833 U?
 U 1 1 590CC6A1
@@ -200,18 +142,6 @@ F 3 "" H 5970 2410 60  0000 C CNN
 	1    6170 2380
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4890 2200 5500 2200
-Wire Wire Line
-	4890 2310 5500 2310
-Wire Wire Line
-	4890 2420 5500 2420
-Wire Wire Line
-	4890 2720 5500 2720
-Wire Wire Line
-	6250 3120 6250 3300
-Wire Wire Line
-	6080 3120 6080 3300
 Text Label 6080 3250 1    60   ~ 0
 GND
 Text Label 6250 3240 1    60   ~ 0
@@ -227,14 +157,8 @@ F 3 "" H 6950 2150 50  0000 C CNN
 	1    6950 2150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6850 2150 6810 2150
-Wire Wire Line
-	7050 2150 7180 2150
 Text Label 7080 2150 0    60   ~ 0
 VDD
-Wire Wire Line
-	6400 1700 6400 1490
 Text Label 6400 1650 1    60   ~ 0
 VDD
 $Comp
@@ -248,13 +172,6 @@ F 3 "" H 6790 1700 50  0000 C CNN
 	1    6790 1700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6790 1560 6790 1600
-Wire Wire Line
-	6790 1560 6400 1560
-Connection ~ 6400 1560
-Wire Wire Line
-	6790 1800 6790 1910
 Text Label 6790 1910 0    60   ~ 0
 GND
 $Comp
@@ -279,6 +196,132 @@ F 3 "" H 5730 1360 50  0000 C CNN
 	1    5730 1360
 	0    1    1    0   
 $EndComp
+Text Label 5410 1480 0    60   ~ 0
+GND
+Text Label 4890 2720 0    60   ~ 0
+MCLK_DDS_2
+Text Label 4890 2200 0    60   ~ 0
+SCLK_DDS_2
+Text Label 4890 2310 0    60   ~ 0
+SDATA_DDS_2
+Text Label 4890 2420 0    60   ~ 0
+FSYNK_DDS_2
+$Comp
+L C_Small C?
+U 1 1 590CC6E0
+P 7040 2790
+F 0 "C?" H 7050 2860 50  0000 L CNN
+F 1 "20pF" H 7050 2710 50  0000 L CNN
+F 2 "" H 7040 2790 50  0000 C CNN
+F 3 "" H 7040 2790 50  0000 C CNN
+	1    7040 2790
+	1    0    0    -1  
+$EndComp
+Text Label 7040 3020 0    60   ~ 0
+GND
+Text Notes 4780 1220 0    60   ~ 0
+GENERADOR DE SEÑALES AUXILIAR (DDS_2 4KHz)\n
+$Comp
+L KC5032A CLK?
+U 1 1 590CEFAE
+P 2060 4470
+F 0 "CLK?" H 2060 4670 60  0000 C CNN
+F 1 "KC5032A" H 2060 4470 60  0000 C CNN
+F 2 "" H 2000 4480 60  0000 C CNN
+F 3 "" H 2000 4480 60  0000 C CNN
+	1    2060 4470
+	1    0    0    -1  
+$EndComp
+Text Label 1110 4330 0    60   ~ 0
+VDD
+$Comp
+L C_Small C?
+U 1 1 590CFF1F
+P 1210 4480
+F 0 "C?" H 1220 4550 50  0000 L CNN
+F 1 "0.1uF" H 1220 4400 50  0000 L CNN
+F 2 "" H 1210 4480 50  0000 C CNN
+F 3 "" H 1210 4480 50  0000 C CNN
+	1    1210 4480
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1510 2200 2120 2200
+Wire Wire Line
+	1510 2310 2120 2310
+Wire Wire Line
+	1510 2420 2120 2420
+Wire Wire Line
+	2870 3120 2870 3300
+Wire Wire Line
+	2700 3120 2700 3300
+Wire Wire Line
+	3470 2150 3430 2150
+Wire Wire Line
+	3670 2150 3800 2150
+Wire Wire Line
+	3020 1700 3020 1490
+Wire Wire Line
+	3410 1560 3410 1600
+Wire Wire Line
+	3410 1560 3020 1560
+Connection ~ 3020 1560
+Wire Wire Line
+	3410 1800 3410 1910
+Wire Wire Line
+	2450 1360 2620 1360
+Wire Wire Line
+	2620 1360 2620 1700
+Wire Wire Line
+	2450 1640 2620 1640
+Connection ~ 2620 1640
+Wire Wire Line
+	2250 1640 2190 1640
+Wire Wire Line
+	2190 1640 2190 1360
+Wire Wire Line
+	2190 1360 2250 1360
+Wire Wire Line
+	2190 1480 2030 1480
+Connection ~ 2190 1480
+Wire Wire Line
+	3430 2610 4020 2610
+Wire Wire Line
+	3660 2690 3660 2610
+Connection ~ 3660 2610
+Wire Wire Line
+	3660 2890 3660 3020
+Wire Notes Line
+	850  3340 4180 3340
+Wire Notes Line
+	4180 3340 4180 1080
+Wire Notes Line
+	4180 1080 1300 1080
+Wire Wire Line
+	4890 2200 5500 2200
+Wire Wire Line
+	4890 2310 5500 2310
+Wire Wire Line
+	4890 2420 5500 2420
+Wire Wire Line
+	4890 2720 5500 2720
+Wire Wire Line
+	6250 3120 6250 3300
+Wire Wire Line
+	6080 3120 6080 3300
+Wire Wire Line
+	6850 2150 6810 2150
+Wire Wire Line
+	7050 2150 7180 2150
+Wire Wire Line
+	6400 1700 6400 1490
+Wire Wire Line
+	6790 1560 6790 1600
+Wire Wire Line
+	6790 1560 6400 1560
+Connection ~ 6400 1560
+Wire Wire Line
+	6790 1800 6790 1910
 Wire Wire Line
 	5830 1360 6000 1360
 Wire Wire Line
@@ -295,38 +338,13 @@ Wire Wire Line
 Wire Wire Line
 	5570 1480 5410 1480
 Connection ~ 5570 1480
-Text Label 5410 1480 0    60   ~ 0
-GND
-Text Label 4890 2720 0    60   ~ 0
-MCLK_DDS_2
-Text Label 4890 2200 0    60   ~ 0
-SCLK_DDS_2
-Text Label 4890 2310 0    60   ~ 0
-SDATA_DDS_2
-Text Label 4890 2420 0    60   ~ 0
-FSYNK_DDS_2
 Wire Wire Line
 	6810 2610 7400 2610
-$Comp
-L C_Small C?
-U 1 1 590CC6E0
-P 7040 2790
-F 0 "C?" H 7050 2860 50  0000 L CNN
-F 1 "20pF" H 7050 2710 50  0000 L CNN
-F 2 "" H 7040 2790 50  0000 C CNN
-F 3 "" H 7040 2790 50  0000 C CNN
-	1    7040 2790
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7040 2690 7040 2610
 Connection ~ 7040 2610
 Wire Wire Line
 	7040 2890 7040 3020
-Text Label 7040 3020 0    60   ~ 0
-GND
-Text Notes 4780 1220 0    60   ~ 0
-GENERADOR DE SEÑALES AUXILIAR (DDS_2 4KHz)\n
 Wire Notes Line
 	4680 1080 4680 3340
 Wire Notes Line
@@ -335,4 +353,129 @@ Wire Notes Line
 	7560 3340 7560 1080
 Wire Notes Line
 	7560 1080 4680 1080
+Wire Wire Line
+	1110 4330 1520 4330
+Wire Wire Line
+	2630 4330 3180 4330
+Wire Wire Line
+	2630 4620 2840 4620
+Wire Wire Line
+	1440 4620 1520 4620
+Wire Wire Line
+	1440 4620 1440 4330
+Connection ~ 1440 4330
+Wire Wire Line
+	1210 4380 1210 4330
+Connection ~ 1210 4330
+Wire Wire Line
+	1210 4580 1210 4680
+Text Label 1210 4680 2    60   ~ 0
+GND
+Text Label 2840 4620 2    60   ~ 0
+GND
+Text Label 3180 4330 2    60   ~ 0
+MCLK_DDS_1
+$Comp
+L R_Small R?
+U 1 1 590D280D
+P 1860 2830
+F 0 "R?" H 1890 2850 50  0000 L CNN
+F 1 "0R" H 1890 2790 50  0000 L CNN
+F 2 "" H 1860 2830 50  0000 C CNN
+F 3 "" H 1860 2830 50  0000 C CNN
+	1    1860 2830
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R?
+U 1 1 590D28C6
+P 1860 2650
+F 0 "R?" H 1890 2670 50  0000 L CNN
+F 1 "0R" H 1890 2610 50  0000 L CNN
+F 2 "" H 1860 2650 50  0000 C CNN
+F 3 "" H 1860 2650 50  0000 C CNN
+	1    1860 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2120 2720 2050 2720
+Wire Wire Line
+	1960 2650 2050 2650
+Wire Wire Line
+	2050 2650 2050 2830
+Wire Wire Line
+	2050 2830 1960 2830
+Connection ~ 2050 2720
+Wire Wire Line
+	1100 2650 1760 2650
+Wire Wire Line
+	1100 2830 1760 2830
+Text Label 1100 2830 0    60   ~ 0
+MCLK_DDS_1
+Text Label 1100 2650 0    60   ~ 0
+MCLK_EXTERNAL
+Wire Notes Line
+	850  3340 850  1080
+Wire Notes Line
+	850  1080 1310 1080
+$Comp
+L KC5032A CLK?
+U 1 1 590D5CFE
+P 2060 5260
+F 0 "CLK?" H 2060 5460 60  0000 C CNN
+F 1 "KC5032A" H 2060 5260 60  0000 C CNN
+F 2 "" H 2000 5270 60  0000 C CNN
+F 3 "" H 2000 5270 60  0000 C CNN
+	1    2060 5260
+	1    0    0    -1  
+$EndComp
+Text Label 1110 5120 0    60   ~ 0
+VDD
+$Comp
+L C_Small C?
+U 1 1 590D5D05
+P 1210 5270
+F 0 "C?" H 1220 5340 50  0000 L CNN
+F 1 "0.1uF" H 1220 5190 50  0000 L CNN
+F 2 "" H 1210 5270 50  0000 C CNN
+F 3 "" H 1210 5270 50  0000 C CNN
+	1    1210 5270
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1110 5120 1520 5120
+Wire Wire Line
+	2630 5120 3180 5120
+Wire Wire Line
+	2630 5410 2840 5410
+Wire Wire Line
+	1440 5410 1520 5410
+Wire Wire Line
+	1440 5410 1440 5120
+Connection ~ 1440 5120
+Wire Wire Line
+	1210 5170 1210 5120
+Connection ~ 1210 5120
+Wire Wire Line
+	1210 5370 1210 5470
+Text Label 1210 5470 2    60   ~ 0
+GND
+Text Label 2840 5410 2    60   ~ 0
+GND
+Text Label 3180 5120 2    60   ~ 0
+MCLK_DDS_2
+Text Notes 1200 3980 0    60   ~ 0
+OSCILADORES
+Text Notes 1820 4200 0    60   ~ 0
+CLOK_DDS_1
+Text Notes 1790 5000 0    60   ~ 0
+CLOK_DDS_2
+Wire Notes Line
+	930  3840 3310 3840
+Wire Notes Line
+	3310 3840 3310 5620
+Wire Notes Line
+	3310 5620 930  5620
+Wire Notes Line
+	930  5620 930  3840
 $EndSCHEMATC

@@ -6,4 +6,10 @@ K 10 ld MSOP
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD9833.pdf
 $ENDCMP
 #
+$CMP KC5032A
+D Clock Oscillators Surface Mount Type
+K OSCILLATOR
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/KC5032A_CM_E(OSCILADOR).pdf
+$ENDCMP
+#
 #End Doc Library
