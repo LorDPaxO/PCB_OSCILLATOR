@@ -30,4 +30,8 @@ K OSCILLATOR
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/KC5032A_CM_E(OSCILADOR).pdf
 $ENDCMP
 #
+$CMP Led_0805
+D Led
+$ENDCMP
+#
 #End Doc Library
