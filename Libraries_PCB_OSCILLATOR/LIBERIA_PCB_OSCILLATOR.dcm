@@ -18,6 +18,12 @@ K 10 ld MSOP
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD9833.pdf
 $ENDCMP
 #
+$CMP ADG819
+D CMOS 0.5 Ω SPDT Switch in SC70
+K 6 ld SC70
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG849.pdf
+$ENDCMP
+#
 $CMP ADG849
 D CMOS 0.5 Ω SPDT Switch in SC70
 K 6 ld SC70
