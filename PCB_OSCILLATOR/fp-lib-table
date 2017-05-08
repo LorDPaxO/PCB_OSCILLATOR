@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Foot_Prints_PCB_OSCILLATOR)(type KiCad)(uri C:\Users\USUARIO\Documents\GitHub\PCB_OSCILLATOR\Foot_Prints_PCB_OSCILLATOR.pretty)(options "")(descr ""))
+  (lib (name Huellas_Prueba_Zurdo)(type KiCad)(uri C:\Users\USUARIO\Documents\GitHub\Prueba_Zurdo\Huellas_Prueba_Zurdo.pretty)(options "")(descr ""))
+  (lib (name Zurdo_foot_Print)(type KiCad)(uri C:\Users\USUARIO\Documents\GitHub\Prueba_Zurdo\Zurdo_foot_Print.pretty)(options "")(descr ""))
 )
