@@ -30,6 +30,10 @@ K 6 ld SC70
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG849.pdf
 $ENDCMP
 #
+$CMP Jumper
+D Jumper Pitch 2.54
+$ENDCMP
+#
 $CMP KC5032A
 D Clock Oscillators Surface Mount Type
 K OSCILLATOR

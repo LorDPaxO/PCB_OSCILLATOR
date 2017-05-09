@@ -34,7 +34,7 @@ LIBS:Resistencias_Proyecto
 LIBS:PCB_OSCILLATOR-cache
 EELAYER 25 0
 EELAYER END
-$Descr User 11811 9843
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -122,28 +122,6 @@ Text Label 8100 3910 2    60   ~ 0
 GND
 Text Label 8440 3620 2    60   ~ 0
 MCLK_DDS_1
-$Comp
-L R_Small R4
-U 1 1 590D280D
-P 1690 2450
-F 0 "R4" H 1720 2470 50  0000 L CNN
-F 1 "0R" H 1720 2410 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1690 2450 50  0001 C CNN
-F 3 "" H 1690 2450 50  0000 C CNN
-	1    1690 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L R_Small R3
-U 1 1 590D28C6
-P 1690 2270
-F 0 "R3" H 1720 2290 50  0000 L CNN
-F 1 "0R" H 1720 2230 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1690 2270 50  0001 C CNN
-F 3 "" H 1690 2270 50  0000 C CNN
-	1    1690 2270
-	0    1    1    0   
-$EndComp
 Text Label 930  2450 0    60   ~ 0
 MCLK_DDS_1
 Text Label 930  2270 0    60   ~ 0
@@ -173,62 +151,18 @@ F 3 "" H 1980 3830 60  0000 C CNN
 	1    2150 4130
 	1    0    0    -1  
 $EndComp
-$Comp
-L R_Small R6
-U 1 1 590DEAA7
-P 3740 2230
-F 0 "R6" H 3770 2250 50  0000 L CNN
-F 1 "0R" H 3770 2190 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 3740 2230 50  0001 C CNN
-F 3 "" H 3740 2230 50  0000 C CNN
-	1    3740 2230
-	0    1    1    0   
-$EndComp
 Text Label 2190 3430 3    60   ~ 0
 +18V
 Text Label 2190 4830 1    60   ~ 0
 -18V
 Text Label 2410 4830 1    60   ~ 0
 GND
-$Comp
-L R_Small R5
-U 1 1 590E18C9
-P 2890 4160
-F 0 "R5" H 2920 4180 50  0000 L CNN
-F 1 "0R" H 2920 4120 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2890 4160 50  0001 C CNN
-F 3 "" H 2890 4160 50  0000 C CNN
-	1    2890 4160
-	0    1    1    0   
-$EndComp
 Text Label 3920 2830 1    60   ~ 0
 WAVE_DDS_1
 Text Label 1030 3940 0    60   ~ 0
 WAVE_DDS_1
 Text Label 1450 4540 1    60   ~ 0
 GND
-$Comp
-L R_Small R1
-U 1 1 590E4F78
-P 1430 4090
-F 0 "R1" V 1400 4170 50  0000 L CNN
-F 1 "0R" V 1370 4010 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1430 4090 50  0001 C CNN
-F 3 "" H 1430 4090 50  0000 C CNN
-	1    1430 4090
-	0    1    1    0   
-$EndComp
-$Comp
-L R_Small R2
-U 1 1 590E5155
-P 1430 4190
-F 0 "R2" V 1470 4280 50  0000 L CNN
-F 1 "0R" V 1500 4110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1430 4190 50  0001 C CNN
-F 3 "" H 1430 4190 50  0000 C CNN
-	1    1430 4190
-	0    1    1    0   
-$EndComp
 Text Label 2330 3330 0    60   ~ 0
 GND
 Text Label 2000 5010 2    60   ~ 0
@@ -258,43 +192,10 @@ Text Label 4990 4830 1    60   ~ 0
 -18V
 Text Label 5210 4830 1    60   ~ 0
 GND
-$Comp
-L R_Small R9
-U 1 1 590F199B
-P 5690 4160
-F 0 "R9" H 5720 4180 50  0000 L CNN
-F 1 "0R" H 5720 4120 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5690 4160 50  0001 C CNN
-F 3 "" H 5690 4160 50  0000 C CNN
-	1    5690 4160
-	0    1    1    0   
-$EndComp
 Text Label 3580 3940 0    60   ~ 0
 MODULATED_WAVE
 Text Label 4250 4540 1    60   ~ 0
 GND
-$Comp
-L R_Small R7
-U 1 1 590F19A3
-P 4230 4090
-F 0 "R7" V 4200 4170 50  0000 L CNN
-F 1 "0R" V 4170 4010 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4230 4090 50  0001 C CNN
-F 3 "" H 4230 4090 50  0000 C CNN
-	1    4230 4090
-	0    1    1    0   
-$EndComp
-$Comp
-L R_Small R8
-U 1 1 590F19A9
-P 4230 4190
-F 0 "R8" V 4270 4280 50  0000 L CNN
-F 1 "0R" V 4300 4110 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4230 4190 50  0001 C CNN
-F 3 "" H 4230 4190 50  0000 C CNN
-	1    4230 4190
-	0    1    1    0   
-$EndComp
 Text Label 5130 3330 0    60   ~ 0
 GND
 Text Label 4800 5010 2    60   ~ 0
@@ -305,17 +206,6 @@ Text Label 3580 4090 0    60   ~ 0
 A_AD5270_2
 Text Label 3580 4190 0    60   ~ 0
 W_AD5270_2
-$Comp
-L R_Small R11
-U 1 1 590FBD26
-P 8000 5630
-F 0 "R11" H 8030 5650 50  0000 L CNN
-F 1 "0R" H 8030 5590 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 8000 5630 50  0001 C CNN
-F 3 "" H 8000 5630 50  0000 C CNN
-	1    8000 5630
-	0    1    1    0   
-$EndComp
 Text Label 6910 5410 3    60   ~ 0
 GND
 Text Notes 1730 3260 0    60   ~ 0
@@ -326,17 +216,6 @@ Text Label 3160 4940 1    60   ~ 0
 WAVE_AD8421_1
 Text Label 6340 5740 0    60   ~ 0
 WAVE_AD8421_1
-$Comp
-L R_Small R10
-U 1 1 591096B6
-P 6800 2200
-F 0 "R10" H 6830 2220 50  0000 L CNN
-F 1 "0R" H 6830 2160 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6800 2200 50  0001 C CNN
-F 3 "" H 6800 2200 50  0000 C CNN
-	1    6800 2200
-	0    1    1    0   
-$EndComp
 Text Label 6990 2830 1    60   ~ 0
 WAVE_DDS_2
 Text Label 6340 5990 0    60   ~ 0
@@ -523,160 +402,29 @@ WAVE_AD8421_2
 $Comp
 L TEST_1P W2
 U 1 1 5917730A
-P 880 8070
-F 0 "W2" H 880 8340 50  0000 C CNN
-F 1 "TEST_1" H 880 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1080 8070 50  0001 C CNN
-F 3 "" H 1080 8070 50  0000 C CNN
-	1    880  8070
+P 8940 3730
+F 0 "W2" H 8940 4000 50  0000 C CNN
+F 1 "TEST_1" H 8940 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9140 3730 50  0001 C CNN
+F 3 "" H 9140 3730 50  0000 C CNN
+	1    8940 3730
 	1    0    0    -1  
 $EndComp
-$Comp
-L TEST_1P W4
-U 1 1 5917F7A1
-P 1180 8070
-F 0 "W4" H 1180 8340 50  0000 C CNN
-F 1 "TEST_2" H 1180 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1380 8070 50  0001 C CNN
-F 3 "" H 1380 8070 50  0000 C CNN
-	1    1180 8070
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W6
-U 1 1 5917F849
-P 1500 8070
-F 0 "W6" H 1500 8340 50  0000 C CNN
-F 1 "TEST_3" H 1500 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1700 8070 50  0001 C CNN
-F 3 "" H 1700 8070 50  0000 C CNN
-	1    1500 8070
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W8
-U 1 1 5917F84F
-P 1800 8070
-F 0 "W8" H 1800 8340 50  0000 C CNN
-F 1 "TEST_4" H 1800 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2000 8070 50  0001 C CNN
-F 3 "" H 2000 8070 50  0000 C CNN
-	1    1800 8070
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W10
-U 1 1 5917FBA5
-P 2120 8070
-F 0 "W10" H 2120 8340 50  0000 C CNN
-F 1 "TEST_5" H 2120 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2320 8070 50  0001 C CNN
-F 3 "" H 2320 8070 50  0000 C CNN
-	1    2120 8070
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W12
-U 1 1 5917FBAB
-P 2420 8070
-F 0 "W12" H 2420 8340 50  0000 C CNN
-F 1 "TEST_6" H 2420 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2620 8070 50  0001 C CNN
-F 3 "" H 2620 8070 50  0000 C CNN
-	1    2420 8070
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W14
-U 1 1 5917FBB1
-P 2740 8070
-F 0 "W14" H 2740 8340 50  0000 C CNN
-F 1 "TEST_7" H 2740 8270 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2940 8070 50  0001 C CNN
-F 3 "" H 2940 8070 50  0000 C CNN
-	1    2740 8070
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W1
-U 1 1 5917FE59
-P 3050 8080
-F 0 "W1" H 3050 8350 50  0000 C CNN
-F 1 "TEST_8" H 3050 8280 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3250 8080 50  0001 C CNN
-F 3 "" H 3250 8080 50  0000 C CNN
-	1    3050 8080
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W3
-U 1 1 5917FE5F
-P 3350 8080
-F 0 "W3" H 3350 8350 50  0000 C CNN
-F 1 "TEST_9" H 3350 8280 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3550 8080 50  0001 C CNN
-F 3 "" H 3550 8080 50  0000 C CNN
-	1    3350 8080
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W5
-U 1 1 5917FE65
-P 3670 8080
-F 0 "W5" H 3670 8350 50  0000 C CNN
-F 1 "TEST_10" H 3670 8280 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3870 8080 50  0001 C CNN
-F 3 "" H 3870 8080 50  0000 C CNN
-	1    3670 8080
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W7
-U 1 1 5917FE6B
-P 4040 8080
-F 0 "W7" H 4040 8350 50  0000 C CNN
-F 1 "TEST_11" H 4040 8280 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4240 8080 50  0001 C CNN
-F 3 "" H 4240 8080 50  0000 C CNN
-	1    4040 8080
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST_1P W9
-U 1 1 5917FE71
-P 4360 8080
-F 0 "W9" H 4360 8350 50  0000 C CNN
-F 1 "TEST_12" H 4360 8280 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4560 8080 50  0001 C CNN
-F 3 "" H 4560 8080 50  0000 C CNN
-	1    4360 8080
-	1    0    0    -1  
-$EndComp
-Text Label 880  9010 1    60   ~ 0
+Text Label 8940 4670 1    60   ~ 0
 MCLK_DDS_1
-Text Label 1180 9010 1    60   ~ 0
+Text Label 9240 4670 1    60   ~ 0
 MCLK_DDS_2
-Text Label 1500 9010 1    60   ~ 0
+Text Label 9560 4670 1    60   ~ 0
 WAVE_DDS_1
-Text Label 1800 9010 1    60   ~ 0
+Text Label 9860 4670 1    60   ~ 0
 WAVE_DDS_2
-Text Label 2120 9010 1    60   ~ 0
+Text Label 10180 4670 1    60   ~ 0
 WAVE_AD8421_1
-Text Label 2420 9010 1    60   ~ 0
+Text Label 10480 4670 1    60   ~ 0
 WAVE_AD8421_2
-Text Label 2740 9010 1    60   ~ 0
+Text Label 10800 4670 1    60   ~ 0
 MODULATED_WAVE
-Text Label 3050 9020 1    60   ~ 0
-A_AD5270_1
-Text Label 3350 9020 1    60   ~ 0
-W_AD5270_1
-Text Label 3670 9020 1    60   ~ 0
-A_AD5270_2
-Text Label 4040 9020 1    60   ~ 0
-W_AD5270_2
-Text Label 4360 9020 1    60   ~ 0
-MCLK_EXTERNAL
-Text Notes 820  7660 0    60   ~ 0
+Text Notes 8880 3320 0    60   ~ 0
 TEST POINTS
 Text Label 8360 2360 0    60   ~ 0
 VDD
@@ -1529,37 +1277,19 @@ Wire Wire Line
 Wire Wire Line
 	5960 4160 5960 4990
 Wire Wire Line
-	880  8070 880  9010
+	8940 3730 8940 4670
 Wire Wire Line
-	1180 8070 1180 9010
+	9240 3730 9240 4670
 Wire Wire Line
-	1500 8070 1500 9010
+	9560 3730 9560 4670
 Wire Wire Line
-	1800 8070 1800 9010
+	9860 3730 9860 4670
 Wire Wire Line
-	2120 8070 2120 9010
+	10180 3730 10180 4670
 Wire Wire Line
-	2420 8070 2420 9010
+	10480 3730 10480 4670
 Wire Wire Line
-	2740 8070 2740 9010
-Wire Wire Line
-	3050 8080 3050 9020
-Wire Wire Line
-	3350 8080 3350 9020
-Wire Wire Line
-	3670 8080 3670 9020
-Wire Wire Line
-	4040 8080 4040 9020
-Wire Wire Line
-	4360 8080 4360 9020
-Wire Notes Line
-	8730 3120 8730 6320
-Wire Notes Line
-	8730 6320 11050 6320
-Wire Notes Line
-	11050 6320 11050 3120
-Wire Notes Line
-	11050 3120 8730 3120
+	10800 3730 10800 4670
 Wire Notes Line
 	7480 2230 7480 3030
 Wire Notes Line
@@ -1673,48 +1403,46 @@ Regletas de 6 pines, por si \nnecesito mas entradas para VDD
 $Comp
 L 0.1uF C28
 U 1 1 5912437D
-P 6360 7370
-F 0 "C28" H 6370 7440 50  0000 L CNN
-F 1 "0.1uF" H 6370 7290 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6270 7340 50  0001 C CNN
-F 3 "" H 6370 7440 50  0001 C CNN
-F 4 "478-1395-2-ND" H 6470 7540 60  0001 C CNN "Digi-Key Part Number"
-	1    6360 7370
+P 8950 5550
+F 0 "C28" H 8960 5620 50  0000 L CNN
+F 1 "0.1uF" H 8960 5470 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 8860 5520 50  0001 C CNN
+F 3 "" H 8960 5620 50  0001 C CNN
+F 4 "478-1395-2-ND" H 9060 5720 60  0001 C CNN "Digi-Key Part Number"
+	1    8950 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L 10uF C29
 U 1 1 59124E81
-P 6650 7370
-F 0 "C29" H 6660 7440 50  0000 L CNN
-F 1 "10uF" H 6660 7290 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6560 7340 50  0001 C CNN
-F 3 "" H 6660 7440 50  0001 C CNN
-F 4 "490-5523-2-ND" H 6760 7540 60  0001 C CNN "25V"
-	1    6650 7370
+P 9240 5550
+F 0 "C29" H 9250 5620 50  0000 L CNN
+F 1 "10uF" H 9250 5470 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9150 5520 50  0001 C CNN
+F 3 "" H 9250 5620 50  0001 C CNN
+F 4 "490-5523-2-ND" H 9350 5720 60  0001 C CNN "25V"
+	1    9240 5550
 	1    0    0    -1  
 $EndComp
 Text Notes 1630 370  0    200  ~ 40
 FALTA CAMBIAR LOS CAP DE 10uF POR POLARIZADOS
 Wire Wire Line
-	6360 7270 6360 7100
+	8950 5450 8950 5280
 Wire Wire Line
-	6360 7100 6650 7100
+	8950 5280 9240 5280
 Wire Wire Line
-	6650 7100 6650 7270
+	9240 5280 9240 5450
 Wire Wire Line
-	6650 7470 6650 7630
+	9240 5650 9240 5810
 Wire Wire Line
-	6650 7630 6360 7630
+	9240 5810 8950 5810
 Wire Wire Line
-	6360 7630 6360 7470
-Text Label 6610 7630 2    60   ~ 0
+	8950 5810 8950 5650
+Text Label 9200 5810 2    60   ~ 0
 GND
-Text Label 6430 7100 0    60   ~ 0
+Text Label 9020 5280 0    60   ~ 0
 VDD
-Wire Notes Line
-	6920 6710 6130 6710
-Text Notes 6150 6980 0    60   ~ 0
+Text Notes 8740 5160 0    60   ~ 0
 Capacitores\nDesacople en\nentrada\n
 Text Notes 3600 5430 0    60   ~ 0
 GAIN_CONTROL_2
@@ -1723,11 +1451,200 @@ Text Notes 3610 5540 0    60   ~ 0
 Text Notes 3540 3350 0    60   ~ 0
 GAIN VARIABLE\nAMPLIFIER_2
 Wire Notes Line
-	680  7520 680  9150
+	8740 3180 8740 4810
 Wire Notes Line
-	680  7520 6070 7520
+	8740 4800 11050 4800
 Wire Notes Line
-	6070 7520 6070 9150
+	11050 3180 8740 3180
+$Comp
+L Jumper J1
+U 1 1 59183800
+P 1430 4090
+F 0 "J1" V 1390 4150 50  0000 L CNN
+F 1 "Jumper" H 1460 4050 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1360 4010 50  0001 C CNN
+F 3 "" H 1430 4090 50  0000 C CNN
+	1    1430 4090
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J2
+U 1 1 591840B8
+P 1430 4190
+F 0 "J2" V 1400 4260 50  0000 L CNN
+F 1 "Jumper" H 1460 4150 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1360 4110 50  0001 C CNN
+F 3 "" H 1430 4190 50  0000 C CNN
+	1    1430 4190
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J3
+U 1 1 591877BD
+P 4230 4090
+F 0 "J3" V 4190 4150 50  0000 L CNN
+F 1 "Jumper" H 4260 4050 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4160 4010 50  0001 C CNN
+F 3 "" H 4230 4090 50  0000 C CNN
+	1    4230 4090
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J4
+U 1 1 591877C3
+P 4230 4190
+F 0 "J4" V 4200 4260 50  0000 L CNN
+F 1 "Jumper" H 4260 4150 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4160 4110 50  0001 C CNN
+F 3 "" H 4230 4190 50  0000 C CNN
+	1    4230 4190
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST_1P W14
+U 1 1 5917FBB1
+P 10800 3730
+F 0 "W14" H 10800 4000 50  0000 C CNN
+F 1 "TEST_7" H 10800 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 11000 3730 50  0001 C CNN
+F 3 "" H 11000 3730 50  0000 C CNN
+	1    10800 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W12
+U 1 1 5917FBAB
+P 10480 3730
+F 0 "W12" H 10480 4000 50  0000 C CNN
+F 1 "TEST_6" H 10480 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10680 3730 50  0001 C CNN
+F 3 "" H 10680 3730 50  0000 C CNN
+	1    10480 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W10
+U 1 1 5917FBA5
+P 10180 3730
+F 0 "W10" H 10180 4000 50  0000 C CNN
+F 1 "TEST_5" H 10180 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10380 3730 50  0001 C CNN
+F 3 "" H 10380 3730 50  0000 C CNN
+	1    10180 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W8
+U 1 1 5917F84F
+P 9860 3730
+F 0 "W8" H 9860 4000 50  0000 C CNN
+F 1 "TEST_4" H 9860 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10060 3730 50  0001 C CNN
+F 3 "" H 10060 3730 50  0000 C CNN
+	1    9860 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W6
+U 1 1 5917F849
+P 9560 3730
+F 0 "W6" H 9560 4000 50  0000 C CNN
+F 1 "TEST_3" H 9560 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9760 3730 50  0001 C CNN
+F 3 "" H 9760 3730 50  0000 C CNN
+	1    9560 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST_1P W4
+U 1 1 5917F7A1
+P 9240 3730
+F 0 "W4" H 9240 4000 50  0000 C CNN
+F 1 "TEST_2" H 9240 3930 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9440 3730 50  0001 C CNN
+F 3 "" H 9440 3730 50  0000 C CNN
+	1    9240 3730
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper J5
+U 1 1 59196A89
+P 2890 4160
+F 0 "J5" V 2860 4250 50  0000 L CNN
+F 1 "Jumper" H 2920 4120 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 2820 4080 50  0001 C CNN
+F 3 "" H 2890 4160 50  0000 C CNN
+	1    2890 4160
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J7
+U 1 1 5919821A
+P 5690 4160
+F 0 "J7" V 5660 4250 50  0000 L CNN
+F 1 "Jumper" H 5720 4120 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 5620 4080 50  0001 C CNN
+F 3 "" H 5690 4160 50  0000 C CNN
+	1    5690 4160
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J8
+U 1 1 5919B755
+P 6800 2200
+F 0 "J8" V 6770 2290 50  0000 L CNN
+F 1 "Jumper" H 6830 2160 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6730 2120 50  0001 C CNN
+F 3 "" H 6800 2200 50  0000 C CNN
+	1    6800 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J6
+U 1 1 5919CAA1
+P 3740 2230
+F 0 "J6" V 3710 2320 50  0000 L CNN
+F 1 "Jumper" H 3770 2190 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3670 2150 50  0001 C CNN
+F 3 "" H 3740 2230 50  0000 C CNN
+	1    3740 2230
+	0    1    1    0   
+$EndComp
 Wire Notes Line
-	6070 9150 680  9150
+	11050 4800 11050 3180
+$Comp
+L Jumper J11
+U 1 1 591A6097
+P 8000 5630
+F 0 "J11" V 7970 5720 50  0000 L CNN
+F 1 "Jumper" H 8030 5590 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7930 5550 50  0001 C CNN
+F 3 "" H 8000 5630 50  0000 C CNN
+	1    8000 5630
+	0    1    1    0   
+$EndComp
+Text Notes 8840 6170 0    60   ~ 0
+Falta pedir los reguladores de 3, 5, 18 y -18.\nY poner regulador 5
+$Comp
+L Jumper J10
+U 1 1 591B45E8
+P 1690 2450
+F 0 "J10" V 1660 2520 50  0000 L CNN
+F 1 "Jumper" H 1720 2410 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1620 2370 50  0001 C CNN
+F 3 "" H 1690 2450 50  0000 C CNN
+	1    1690 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper J9
+U 1 1 591B4BE3
+P 1690 2270
+F 0 "J9" V 1660 2340 50  0000 L CNN
+F 1 "Jumper" H 1720 2230 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1620 2190 50  0001 C CNN
+F 3 "" H 1690 2270 50  0000 C CNN
+	1    1690 2270
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
