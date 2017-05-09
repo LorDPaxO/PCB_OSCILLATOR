@@ -34,7 +34,7 @@ LIBS:Resistencias_Proyecto
 LIBS:PCB_OSCILLATOR-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 11811 9843
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -78,7 +78,7 @@ FSYNK_DDS_1
 Text Label 3490 2640 0    60   ~ 0
 GND
 Text Notes 840  840  0    60   ~ 0
-GENERADOR DE SEÑALES PRINCIPAL (DDS_1 X00KHz)\n
+GENERATOR SIGNAL (DDS_1 X00KHz)\n
 $Comp
 L AD9833 U6
 U 1 1 590CC6A1
@@ -113,7 +113,7 @@ FSYNK_DDS_2
 Text Label 6540 2610 0    60   ~ 0
 GND
 Text Notes 4280 810  0    60   ~ 0
-GENERADOR DE SEÑALES AUXILIAR (DDS_2 XKHz)\n
+GENERATOR SIGNAL (DDS_2 XKHz)\n
 Text Label 6370 3620 0    60   ~ 0
 VDD
 Text Label 6470 3970 2    60   ~ 0
@@ -233,10 +233,10 @@ Text Label 2330 3330 0    60   ~ 0
 GND
 Text Label 2000 5010 2    60   ~ 0
 GND
-Text Notes 760  3270 0    60   ~ 0
-PREAMPLIFICADOR
-Text Notes 1090 3610 0    60   ~ 0
-Vin: 650mV Peak\nVout: 2-3 V Peak
+Text Notes 740  3350 0    60   ~ 0
+GAIN VARIABLE\nAMPLIFIER_1
+Text Notes 770  3650 0    60   ~ 0
+Vin: 650mV Peak (Max)\nVout: 3 V Peak (Max)
 Text Label 780  4090 0    60   ~ 0
 A_AD5270_1
 Text Label 780  4190 0    60   ~ 0
@@ -299,10 +299,8 @@ Text Label 5130 3330 0    60   ~ 0
 GND
 Text Label 4800 5010 2    60   ~ 0
 GND
-Text Notes 3560 3270 0    60   ~ 0
-AMPLIFICADOR
-Text Notes 3890 3610 0    60   ~ 0
-Vin: 2-3V Peak\nVout: 5-15 V Peak
+Text Notes 3640 3610 0    60   ~ 0
+Vin: 3V Peak (Max)\nVout: 15 V Peak (Max)
 Text Label 3580 4090 0    60   ~ 0
 A_AD5270_2
 Text Label 3580 4190 0    60   ~ 0
@@ -322,7 +320,7 @@ Text Label 6910 5410 3    60   ~ 0
 GND
 Text Notes 1730 3260 0    60   ~ 0
 AD8421_1
-Text Notes 4270 3270 0    60   ~ 0
+Text Notes 4510 3270 0    60   ~ 0
 AD8421_2
 Text Label 3160 4940 1    60   ~ 0
 WAVE_AD8421_1
@@ -350,7 +348,7 @@ VDD
 Text Label 8000 5200 2    60   ~ 0
 GND
 Text Notes 6280 5120 0    60   ~ 0
-MODULADOR
+MULTIPLEXER
 Text Label 8330 6580 1    60   ~ 0
 MODULATED_WAVE
 $Comp
@@ -385,9 +383,9 @@ A_AD5270_1
 Text Label 3210 6270 2    60   ~ 0
 W_AD5270_1
 Text Notes 780  5410 0    60   ~ 0
-POTENCIOMETRO DIGITAL 1 (PREAMPLIFICADOR)
+GAIN_CONTROL_1
 Text Notes 790  5520 0    60   ~ 0
-Modificación de la ganancia
+(Digital Potentiometer)
 $Comp
 L AD5270 U4
 U 1 1 5913782F
@@ -419,10 +417,6 @@ Text Label 6000 6170 2    60   ~ 0
 A_AD5270_2
 Text Label 6000 6280 2    60   ~ 0
 W_AD5270_2
-Text Notes 3570 5420 0    60   ~ 0
-POTENCIOMETRO DIGITAL 2 (AMPLIFICADOR)
-Text Notes 3580 5530 0    60   ~ 0
-Modificación de la ganancia
 Text Notes 1890 5920 0    60   ~ 0
 AD5270_1
 Text Notes 4700 5930 0    60   ~ 0
@@ -529,160 +523,160 @@ WAVE_AD8421_2
 $Comp
 L TEST_1P W2
 U 1 1 5917730A
-P 8950 3890
-F 0 "W2" H 8950 4160 50  0000 C CNN
-F 1 "TEST_1" H 8950 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9150 3890 50  0001 C CNN
-F 3 "" H 9150 3890 50  0000 C CNN
-	1    8950 3890
+P 880 8070
+F 0 "W2" H 880 8340 50  0000 C CNN
+F 1 "TEST_1" H 880 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1080 8070 50  0001 C CNN
+F 3 "" H 1080 8070 50  0000 C CNN
+	1    880  8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W4
 U 1 1 5917F7A1
-P 9250 3890
-F 0 "W4" H 9250 4160 50  0000 C CNN
-F 1 "TEST_2" H 9250 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9450 3890 50  0001 C CNN
-F 3 "" H 9450 3890 50  0000 C CNN
-	1    9250 3890
+P 1180 8070
+F 0 "W4" H 1180 8340 50  0000 C CNN
+F 1 "TEST_2" H 1180 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1380 8070 50  0001 C CNN
+F 3 "" H 1380 8070 50  0000 C CNN
+	1    1180 8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W6
 U 1 1 5917F849
-P 9570 3890
-F 0 "W6" H 9570 4160 50  0000 C CNN
-F 1 "TEST_3" H 9570 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9770 3890 50  0001 C CNN
-F 3 "" H 9770 3890 50  0000 C CNN
-	1    9570 3890
+P 1500 8070
+F 0 "W6" H 1500 8340 50  0000 C CNN
+F 1 "TEST_3" H 1500 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 1700 8070 50  0001 C CNN
+F 3 "" H 1700 8070 50  0000 C CNN
+	1    1500 8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W8
 U 1 1 5917F84F
-P 9870 3890
-F 0 "W8" H 9870 4160 50  0000 C CNN
-F 1 "TEST_4" H 9870 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10070 3890 50  0001 C CNN
-F 3 "" H 10070 3890 50  0000 C CNN
-	1    9870 3890
+P 1800 8070
+F 0 "W8" H 1800 8340 50  0000 C CNN
+F 1 "TEST_4" H 1800 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2000 8070 50  0001 C CNN
+F 3 "" H 2000 8070 50  0000 C CNN
+	1    1800 8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W10
 U 1 1 5917FBA5
-P 10190 3890
-F 0 "W10" H 10190 4160 50  0000 C CNN
-F 1 "TEST_5" H 10190 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10390 3890 50  0001 C CNN
-F 3 "" H 10390 3890 50  0000 C CNN
-	1    10190 3890
+P 2120 8070
+F 0 "W10" H 2120 8340 50  0000 C CNN
+F 1 "TEST_5" H 2120 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2320 8070 50  0001 C CNN
+F 3 "" H 2320 8070 50  0000 C CNN
+	1    2120 8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W12
 U 1 1 5917FBAB
-P 10490 3890
-F 0 "W12" H 10490 4160 50  0000 C CNN
-F 1 "TEST_6" H 10490 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10690 3890 50  0001 C CNN
-F 3 "" H 10690 3890 50  0000 C CNN
-	1    10490 3890
+P 2420 8070
+F 0 "W12" H 2420 8340 50  0000 C CNN
+F 1 "TEST_6" H 2420 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2620 8070 50  0001 C CNN
+F 3 "" H 2620 8070 50  0000 C CNN
+	1    2420 8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W14
 U 1 1 5917FBB1
-P 10810 3890
-F 0 "W14" H 10810 4160 50  0000 C CNN
-F 1 "TEST_7" H 10810 4090 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 11010 3890 50  0001 C CNN
-F 3 "" H 11010 3890 50  0000 C CNN
-	1    10810 3890
+P 2740 8070
+F 0 "W14" H 2740 8340 50  0000 C CNN
+F 1 "TEST_7" H 2740 8270 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 2940 8070 50  0001 C CNN
+F 3 "" H 2940 8070 50  0000 C CNN
+	1    2740 8070
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W1
 U 1 1 5917FE59
-P 9210 5260
-F 0 "W1" H 9210 5530 50  0000 C CNN
-F 1 "TEST_8" H 9210 5460 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9410 5260 50  0001 C CNN
-F 3 "" H 9410 5260 50  0000 C CNN
-	1    9210 5260
+P 3050 8080
+F 0 "W1" H 3050 8350 50  0000 C CNN
+F 1 "TEST_8" H 3050 8280 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3250 8080 50  0001 C CNN
+F 3 "" H 3250 8080 50  0000 C CNN
+	1    3050 8080
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W3
 U 1 1 5917FE5F
-P 9510 5260
-F 0 "W3" H 9510 5530 50  0000 C CNN
-F 1 "TEST_9" H 9510 5460 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 9710 5260 50  0001 C CNN
-F 3 "" H 9710 5260 50  0000 C CNN
-	1    9510 5260
+P 3350 8080
+F 0 "W3" H 3350 8350 50  0000 C CNN
+F 1 "TEST_9" H 3350 8280 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3550 8080 50  0001 C CNN
+F 3 "" H 3550 8080 50  0000 C CNN
+	1    3350 8080
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W5
 U 1 1 5917FE65
-P 9830 5260
-F 0 "W5" H 9830 5530 50  0000 C CNN
-F 1 "TEST_10" H 9830 5460 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10030 5260 50  0001 C CNN
-F 3 "" H 10030 5260 50  0000 C CNN
-	1    9830 5260
+P 3670 8080
+F 0 "W5" H 3670 8350 50  0000 C CNN
+F 1 "TEST_10" H 3670 8280 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 3870 8080 50  0001 C CNN
+F 3 "" H 3870 8080 50  0000 C CNN
+	1    3670 8080
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W7
 U 1 1 5917FE6B
-P 10200 5260
-F 0 "W7" H 10200 5530 50  0000 C CNN
-F 1 "TEST_11" H 10200 5460 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10400 5260 50  0001 C CNN
-F 3 "" H 10400 5260 50  0000 C CNN
-	1    10200 5260
+P 4040 8080
+F 0 "W7" H 4040 8350 50  0000 C CNN
+F 1 "TEST_11" H 4040 8280 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4240 8080 50  0001 C CNN
+F 3 "" H 4240 8080 50  0000 C CNN
+	1    4040 8080
 	1    0    0    -1  
 $EndComp
 $Comp
 L TEST_1P W9
 U 1 1 5917FE71
-P 10520 5260
-F 0 "W9" H 10520 5530 50  0000 C CNN
-F 1 "TEST_12" H 10520 5460 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 10720 5260 50  0001 C CNN
-F 3 "" H 10720 5260 50  0000 C CNN
-	1    10520 5260
+P 4360 8080
+F 0 "W9" H 4360 8350 50  0000 C CNN
+F 1 "TEST_12" H 4360 8280 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 4560 8080 50  0001 C CNN
+F 3 "" H 4560 8080 50  0000 C CNN
+	1    4360 8080
 	1    0    0    -1  
 $EndComp
-Text Label 8950 4830 1    60   ~ 0
+Text Label 880  9010 1    60   ~ 0
 MCLK_DDS_1
-Text Label 9250 4830 1    60   ~ 0
+Text Label 1180 9010 1    60   ~ 0
 MCLK_DDS_2
-Text Label 9570 4830 1    60   ~ 0
+Text Label 1500 9010 1    60   ~ 0
 WAVE_DDS_1
-Text Label 9870 4830 1    60   ~ 0
+Text Label 1800 9010 1    60   ~ 0
 WAVE_DDS_2
-Text Label 10190 4830 1    60   ~ 0
+Text Label 2120 9010 1    60   ~ 0
 WAVE_AD8421_1
-Text Label 10490 4830 1    60   ~ 0
+Text Label 2420 9010 1    60   ~ 0
 WAVE_AD8421_2
-Text Label 10810 4830 1    60   ~ 0
+Text Label 2740 9010 1    60   ~ 0
 MODULATED_WAVE
-Text Label 9210 6200 1    60   ~ 0
+Text Label 3050 9020 1    60   ~ 0
 A_AD5270_1
-Text Label 9510 6200 1    60   ~ 0
+Text Label 3350 9020 1    60   ~ 0
 W_AD5270_1
-Text Label 9830 6200 1    60   ~ 0
+Text Label 3670 9020 1    60   ~ 0
 A_AD5270_2
-Text Label 10200 6200 1    60   ~ 0
+Text Label 4040 9020 1    60   ~ 0
 W_AD5270_2
-Text Label 10520 6200 1    60   ~ 0
+Text Label 4360 9020 1    60   ~ 0
 MCLK_EXTERNAL
-Text Notes 8850 3290 0    60   ~ 0
+Text Notes 820  7660 0    60   ~ 0
 TEST POINTS
 Text Label 8360 2360 0    60   ~ 0
 VDD
@@ -1535,29 +1529,29 @@ Wire Wire Line
 Wire Wire Line
 	5960 4160 5960 4990
 Wire Wire Line
-	8950 3890 8950 4830
+	880  8070 880  9010
 Wire Wire Line
-	9250 3890 9250 4830
+	1180 8070 1180 9010
 Wire Wire Line
-	9570 3890 9570 4830
+	1500 8070 1500 9010
 Wire Wire Line
-	9870 3890 9870 4830
+	1800 8070 1800 9010
 Wire Wire Line
-	10190 3890 10190 4830
+	2120 8070 2120 9010
 Wire Wire Line
-	10490 3890 10490 4830
+	2420 8070 2420 9010
 Wire Wire Line
-	10810 3890 10810 4830
+	2740 8070 2740 9010
 Wire Wire Line
-	9210 5260 9210 6200
+	3050 8080 3050 9020
 Wire Wire Line
-	9510 5260 9510 6200
+	3350 8080 3350 9020
 Wire Wire Line
-	9830 5260 9830 6200
+	3670 8080 3670 9020
 Wire Wire Line
-	10200 5260 10200 6200
+	4040 8080 4040 9020
 Wire Wire Line
-	10520 5260 10520 6200
+	4360 8080 4360 9020
 Wire Notes Line
 	8730 3120 8730 6320
 Wire Notes Line
@@ -1719,13 +1713,21 @@ GND
 Text Label 6430 7100 0    60   ~ 0
 VDD
 Wire Notes Line
-	6130 6710 6130 7730
-Wire Notes Line
-	6130 7730 6920 7730
-Wire Notes Line
-	6920 7730 6920 6710
-Wire Notes Line
 	6920 6710 6130 6710
 Text Notes 6150 6980 0    60   ~ 0
 Capacitores\nDesacople en\nentrada\n
+Text Notes 3600 5430 0    60   ~ 0
+GAIN_CONTROL_2
+Text Notes 3610 5540 0    60   ~ 0
+(Digital Potentiometer)
+Text Notes 3540 3350 0    60   ~ 0
+GAIN VARIABLE\nAMPLIFIER_2
+Wire Notes Line
+	680  7520 680  9150
+Wire Notes Line
+	680  7520 6070 7520
+Wire Notes Line
+	6070 7520 6070 9150
+Wire Notes Line
+	6070 9150 680  9150
 $EndSCHEMATC
