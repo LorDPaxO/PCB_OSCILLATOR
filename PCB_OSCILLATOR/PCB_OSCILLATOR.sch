@@ -114,31 +114,31 @@ Text Label 6540 2610 0    60   ~ 0
 GND
 Text Notes 4280 810  0    60   ~ 0
 GENERATOR SIGNAL (DDS_2 XKHz)\n
-Text Label 6370 3620 0    60   ~ 0
+Text Label 6510 3620 0    60   ~ 0
 VDD
-Text Label 6470 3970 2    60   ~ 0
+Text Label 6610 3970 2    60   ~ 0
 GND
-Text Label 8100 3910 2    60   ~ 0
+Text Label 8240 3910 2    60   ~ 0
 GND
-Text Label 8440 3620 2    60   ~ 0
+Text Label 8580 3620 2    60   ~ 0
 MCLK_DDS_1
 Text Label 930  2450 0    60   ~ 0
 MCLK_DDS_1
 Text Label 930  2270 0    60   ~ 0
 MCLK_EXTERNAL
-Text Label 6370 4410 0    60   ~ 0
+Text Label 6510 4410 0    60   ~ 0
 VDD
-Text Label 6470 4760 2    60   ~ 0
+Text Label 6610 4760 2    60   ~ 0
 GND
-Text Label 8100 4700 2    60   ~ 0
+Text Label 8240 4700 2    60   ~ 0
 GND
-Text Label 8440 4410 2    60   ~ 0
+Text Label 8580 4410 2    60   ~ 0
 MCLK_DDS_2
-Text Notes 6460 3270 0    60   ~ 0
+Text Notes 6600 3270 0    60   ~ 0
 OSCILLATORS
-Text Notes 7080 3490 0    60   ~ 0
+Text Notes 7220 3490 0    60   ~ 0
 CLOK_DDS_1
-Text Notes 7050 4290 0    60   ~ 0
+Text Notes 7190 4290 0    60   ~ 0
 CLOK_DDS_2
 $Comp
 L AD8421 U2
@@ -152,9 +152,9 @@ F 3 "" H 1980 3830 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2190 3430 3    60   ~ 0
-+18V
++12V
 Text Label 2190 4830 1    60   ~ 0
--18V
+-12V
 Text Label 2410 4830 1    60   ~ 0
 GND
 Text Label 3920 2830 1    60   ~ 0
@@ -187,9 +187,9 @@ F 3 "" H 4780 3830 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4990 3430 3    60   ~ 0
-+18V
++12V
 Text Label 4990 4830 1    60   ~ 0
--18V
+-12V
 Text Label 5210 4830 1    60   ~ 0
 GND
 Text Label 3580 3940 0    60   ~ 0
@@ -206,7 +206,7 @@ Text Label 3580 4090 0    60   ~ 0
 A_AD5270_2
 Text Label 3580 4190 0    60   ~ 0
 W_AD5270_2
-Text Label 6910 5410 3    60   ~ 0
+Text Label 7050 5410 3    60   ~ 0
 GND
 Text Notes 1730 3260 0    60   ~ 0
 AD8421_1
@@ -214,21 +214,21 @@ Text Notes 4510 3270 0    60   ~ 0
 AD8421_2
 Text Label 3160 4940 1    60   ~ 0
 WAVE_AD8421_1
-Text Label 6340 5740 0    60   ~ 0
+Text Label 6480 5740 0    60   ~ 0
 WAVE_AD8421_1
 Text Label 6990 2830 1    60   ~ 0
 WAVE_DDS_2
-Text Label 6340 5990 0    60   ~ 0
+Text Label 6480 5990 0    60   ~ 0
 WAVE_DDS_2
-Text Label 7490 6510 1    60   ~ 0
+Text Label 7630 6510 1    60   ~ 0
 GND
-Text Label 7490 5160 3    60   ~ 0
+Text Label 7630 5160 3    60   ~ 0
 VDD
-Text Label 8000 5200 2    60   ~ 0
+Text Label 8140 5200 2    60   ~ 0
 GND
-Text Notes 6280 5120 0    60   ~ 0
+Text Notes 6420 5120 0    60   ~ 0
 MULTIPLEXER
-Text Label 8330 6580 1    60   ~ 0
+Text Label 8470 6580 1    60   ~ 0
 MODULATED_WAVE
 $Comp
 L AD5270 U1
@@ -392,11 +392,11 @@ F 3 "" H 7970 2510 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 7970 2930 1    60   ~ 0
-+18V
++12V
 Text Label 8070 2930 1    60   ~ 0
 GND
 Text Label 8170 2930 1    60   ~ 0
--18V
+-12V
 Text Label 5960 4990 1    60   ~ 0
 WAVE_AD8421_2
 $Comp
@@ -567,37 +567,37 @@ $EndComp
 $Comp
 L 0.1uF C24
 U 1 1 59127682
-P 6470 3770
-F 0 "C24" H 6480 3840 50  0000 L CNN
-F 1 "0.1uF" H 6480 3690 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6380 3740 50  0001 C CNN
-F 3 "" H 6480 3840 50  0001 C CNN
-F 4 "478-1395-2-ND" H 6580 3940 60  0001 C CNN "Digi-Key Part Number"
-	1    6470 3770
+P 6610 3770
+F 0 "C24" H 6620 3840 50  0000 L CNN
+F 1 "0.1uF" H 6620 3690 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6520 3740 50  0001 C CNN
+F 3 "" H 6620 3840 50  0001 C CNN
+F 4 "478-1395-2-ND" H 6720 3940 60  0001 C CNN "Digi-Key Part Number"
+	1    6610 3770
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0.1uF C25
 U 1 1 59127C1D
-P 6470 4560
-F 0 "C25" H 6480 4630 50  0000 L CNN
-F 1 "0.1uF" H 6480 4480 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6380 4530 50  0001 C CNN
-F 3 "" H 6480 4630 50  0001 C CNN
-F 4 "478-1395-2-ND" H 6580 4730 60  0001 C CNN "Digi-Key Part Number"
-	1    6470 4560
+P 6610 4560
+F 0 "C25" H 6620 4630 50  0000 L CNN
+F 1 "0.1uF" H 6620 4480 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6520 4530 50  0001 C CNN
+F 3 "" H 6620 4630 50  0001 C CNN
+F 4 "478-1395-2-ND" H 6720 4730 60  0001 C CNN "Digi-Key Part Number"
+	1    6610 4560
 	1    0    0    -1  
 $EndComp
 $Comp
 L 0.1uF C27
 U 1 1 591297D5
-P 7660 5200
-F 0 "C27" H 7670 5270 50  0000 L CNN
-F 1 "0.1uF" H 7670 5120 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 7570 5170 50  0001 C CNN
-F 3 "" H 7670 5270 50  0001 C CNN
-F 4 "478-1395-2-ND" H 7770 5370 60  0001 C CNN "Digi-Key Part Number"
-	1    7660 5200
+P 7800 5200
+F 0 "C27" H 7810 5270 50  0000 L CNN
+F 1 "0.1uF" H 7810 5120 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 7710 5170 50  0001 C CNN
+F 3 "" H 7810 5270 50  0001 C CNN
+F 4 "478-1395-2-ND" H 7910 5370 60  0001 C CNN "Digi-Key Part Number"
+	1    7800 5200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -909,21 +909,21 @@ Wire Notes Line
 Wire Notes Line
 	7060 670  4180 670 
 Wire Wire Line
-	6370 3620 6780 3620
+	6510 3620 6920 3620
 Wire Wire Line
-	7890 3620 8440 3620
+	8030 3620 8580 3620
 Wire Wire Line
-	7890 3910 8100 3910
+	8030 3910 8240 3910
 Wire Wire Line
-	6700 3910 6780 3910
+	6840 3910 6920 3910
 Wire Wire Line
-	6700 3910 6700 3620
-Connection ~ 6700 3620
+	6840 3910 6840 3620
+Connection ~ 6840 3620
 Wire Wire Line
-	6470 3670 6470 3620
-Connection ~ 6470 3620
+	6610 3670 6610 3620
+Connection ~ 6610 3620
 Wire Wire Line
-	6470 3870 6470 3970
+	6610 3870 6610 3970
 Wire Wire Line
 	1950 2340 1880 2340
 Wire Wire Line
@@ -942,29 +942,25 @@ Wire Notes Line
 Wire Notes Line
 	680  700  1140 700 
 Wire Wire Line
-	6370 4410 6780 4410
+	6510 4410 6920 4410
 Wire Wire Line
-	7890 4410 8440 4410
+	8030 4410 8580 4410
 Wire Wire Line
-	7890 4700 8100 4700
+	8030 4700 8240 4700
 Wire Wire Line
-	6700 4700 6780 4700
+	6840 4700 6920 4700
 Wire Wire Line
-	6700 4700 6700 4410
-Connection ~ 6700 4410
+	6840 4700 6840 4410
+Connection ~ 6840 4410
 Wire Wire Line
-	6470 4460 6470 4410
-Connection ~ 6470 4410
+	6610 4460 6610 4410
+Connection ~ 6610 4410
 Wire Wire Line
-	6470 4660 6470 4760
+	6610 4660 6610 4760
 Wire Notes Line
-	6190 3130 8570 3130
+	6330 3130 8710 3130
 Wire Notes Line
-	8570 3130 8570 4910
-Wire Notes Line
-	8570 4910 6190 4910
-Wire Notes Line
-	6190 4910 6190 3130
+	8710 3130 8710 4910
 Wire Wire Line
 	2190 3660 2190 3430
 Wire Wire Line
@@ -1024,11 +1020,9 @@ Wire Wire Line
 	2000 4740 2000 4680
 Connection ~ 2000 4680
 Wire Notes Line
-	680  3140 3250 3140
+	680  3140 3430 3140
 Wire Notes Line
-	3250 3140 3250 5150
-Wire Notes Line
-	3250 5150 880  5150
+	880  5150 3430 5150
 Wire Notes Line
 	680  5150 890  5150
 Wire Notes Line
@@ -1086,31 +1080,29 @@ Wire Wire Line
 	4800 4740 4800 4680
 Connection ~ 4800 4680
 Wire Notes Line
-	3480 3140 6050 3140
+	3480 3140 6290 3140
 Wire Notes Line
-	6050 3140 6050 5150
-Wire Notes Line
-	6050 5150 3680 5150
+	3680 5150 6290 5150
 Wire Notes Line
 	3480 5150 3690 5150
 Wire Notes Line
 	3480 3140 3480 5150
 Wire Wire Line
-	7490 5300 7490 5160
+	7630 5300 7630 5160
 Wire Wire Line
-	7490 6300 7490 6510
+	7630 6300 7630 6510
 Wire Wire Line
-	7900 5630 7840 5630
+	8040 5630 7980 5630
 Wire Wire Line
-	6340 5740 7040 5740
+	6480 5740 7180 5740
 Wire Wire Line
-	6340 5990 7040 5990
+	6480 5990 7180 5990
 Wire Wire Line
 	3160 4160 3160 4940
 Wire Wire Line
-	7040 5630 6910 5630
+	7180 5630 7050 5630
 Wire Wire Line
-	6910 5630 6910 5410
+	7050 5630 7050 5410
 Wire Wire Line
 	6310 2200 6700 2200
 Wire Wire Line
@@ -1118,22 +1110,22 @@ Wire Wire Line
 Wire Wire Line
 	6990 2200 6990 2830
 Wire Wire Line
-	7560 5200 7490 5200
-Connection ~ 7490 5200
+	7700 5200 7630 5200
+Connection ~ 7630 5200
 Wire Wire Line
-	7760 5200 8000 5200
+	7900 5200 8140 5200
 Wire Notes Line
-	6170 4970 6170 6670
+	6310 4970 6310 6670
 Wire Notes Line
-	6170 6670 8580 6670
+	6310 6670 8720 6670
 Wire Notes Line
-	8580 6670 8580 4970
+	8720 6670 8720 4970
 Wire Notes Line
-	8580 4970 6170 4970
+	8720 4970 6310 4970
 Wire Wire Line
-	8100 5630 8330 5630
+	8240 5630 8470 5630
 Wire Wire Line
-	8330 5630 8330 6580
+	8470 5630 8470 6580
 Wire Wire Line
 	740  6010 1520 6010
 Wire Wire Line
@@ -1355,40 +1347,40 @@ $EndComp
 $Comp
 L KC5032A CLK1
 U 1 1 59165A36
-P 7320 3760
-F 0 "CLK1" H 7320 3960 60  0000 C CNN
-F 1 "KC5032A" H 7320 3760 60  0000 C CNN
-F 2 "Foot_Prints_PCB_OSCILLATOR:KC5032A_Foot_Print" H 7260 3770 60  0001 C CNN
-F 3 "" H 7260 3770 60  0000 C CNN
-F 4 "1253-1043-2-ND" H 7420 4060 60  0001 C CNN "OSC XO 25.000MHZ CMOS SMD"
-	1    7320 3760
+P 7460 3760
+F 0 "CLK1" H 7460 3960 60  0000 C CNN
+F 1 "KC5032A" H 7460 3760 60  0000 C CNN
+F 2 "Foot_Prints_PCB_OSCILLATOR:KC5032A_Foot_Print" H 7400 3770 60  0001 C CNN
+F 3 "" H 7400 3770 60  0000 C CNN
+F 4 "1253-1043-2-ND" H 7560 4060 60  0001 C CNN "OSC XO 25.000MHZ CMOS SMD"
+	1    7460 3760
 	1    0    0    -1  
 $EndComp
 $Comp
 L KC5032A CLK2
 U 1 1 591665A9
-P 7320 4550
-F 0 "CLK2" H 7320 4750 60  0000 C CNN
-F 1 "KC5032A" H 7320 4550 60  0000 C CNN
-F 2 "Foot_Prints_PCB_OSCILLATOR:KC5032A_Foot_Print" H 7260 4560 60  0001 C CNN
-F 3 "" H 7260 4560 60  0000 C CNN
-F 4 "1253-1043-2-ND" H 7420 4850 60  0001 C CNN "OSC XO 25.000MHZ CMOS SMD"
-	1    7320 4550
+P 7460 4550
+F 0 "CLK2" H 7460 4750 60  0000 C CNN
+F 1 "KC5032A" H 7460 4550 60  0000 C CNN
+F 2 "Foot_Prints_PCB_OSCILLATOR:KC5032A_Foot_Print" H 7400 4560 60  0001 C CNN
+F 3 "" H 7400 4560 60  0000 C CNN
+F 4 "1253-1043-2-ND" H 7560 4850 60  0001 C CNN "OSC XO 25.000MHZ CMOS SMD"
+	1    7460 4550
 	1    0    0    -1  
 $EndComp
 $Comp
 L ADG819 U7
 U 1 1 5911630B
-P 7440 5830
-F 0 "U7" H 7300 6210 60  0000 C CNN
-F 1 "ADG819" H 7450 5830 60  0000 C CNN
-F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 7200 6110 60  0001 C CNN
-F 3 "" H 7440 5830 60  0000 C CNN
-	1    7440 5830
+P 7580 5830
+F 0 "U7" H 7440 6210 60  0000 C CNN
+F 1 "ADG819" H 7590 5830 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 7340 6110 60  0001 C CNN
+F 3 "" H 7580 5830 60  0000 C CNN
+	1    7580 5830
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7840 5760
-NoConn ~ 7840 5870
+NoConn ~ 7980 5760
+NoConn ~ 7980 5870
 NoConn ~ 8160 1220
 NoConn ~ 8260 1220
 NoConn ~ 9000 1220
@@ -1424,8 +1416,6 @@ F 4 "490-5523-2-ND" H 9350 5720 60  0001 C CNN "25V"
 	1    9240 5550
 	1    0    0    -1  
 $EndComp
-Text Notes 1630 370  0    200  ~ 40
-FALTA CAMBIAR LOS CAP DE 10uF POR POLARIZADOS
 Wire Wire Line
 	8950 5450 8950 5280
 Wire Wire Line
@@ -1615,12 +1605,12 @@ Wire Notes Line
 $Comp
 L Jumper J11
 U 1 1 591A6097
-P 8000 5630
-F 0 "J11" V 7970 5720 50  0000 L CNN
-F 1 "Jumper" H 8030 5590 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7930 5550 50  0001 C CNN
-F 3 "" H 8000 5630 50  0000 C CNN
-	1    8000 5630
+P 8140 5630
+F 0 "J11" V 8110 5720 50  0000 L CNN
+F 1 "Jumper" H 8170 5590 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8070 5550 50  0001 C CNN
+F 3 "" H 8140 5630 50  0000 C CNN
+	1    8140 5630
 	0    1    1    0   
 $EndComp
 Text Notes 8840 6170 0    60   ~ 0
@@ -1647,4 +1637,42 @@ F 3 "" H 1690 2270 50  0000 C CNN
 	1    1690 2270
 	0    1    1    0   
 $EndComp
+Text Notes 3330 900  0    60   ~ 0
+Power supply\n2.3 V to 5.5 V
+Text Notes 6440 4140 0    60   ~ 0
+Poner Pull-up y jumper
+Text Notes 6330 6200 0    60   ~ 0
+adecuar salida del DD_S
+Text Notes 9620 5110 0    60   ~ 0
+Falta incluir regulador
+Text Notes 9360 5220 0    60   ~ 0
+Faltan cap de desacople de +12-12
+Text Notes 6360 870  0    60   ~ 0
+Power supply\n2.3 V to 5.5 V
+Text Notes 2610 3350 0    60   ~ 0
+Dual supply\n±2.5 V to ±18 V
+Text Notes 5480 3360 0    60   ~ 0
+Dual supply\n±2.5 V to ±18 V
+Text Notes 8070 3330 0    60   ~ 0
+Power supply\n1.8V to 5.0V
+Text Notes 2600 5470 0    60   ~ 0
+Single supply\n2.7 V to 5.5 V 
+Text Notes 5380 5480 0    60   ~ 0
+Single supply\n2.7 V to 5.5 V 
+Text Notes 6370 6610 0    60   ~ 0
+Power supply\n2.7 V to 3.6 V
+Text Notes 7100 3030 0    60   ~ 0
+Falta poner regulador\nla Salida del regulador es VDD
+Text Notes 720  2900 0    60   ~ 0
+Imax 5.5mA
+Wire Notes Line
+	3430 5150 3430 3140
+Wire Notes Line
+	8710 4910 6330 4910
+Wire Notes Line
+	6330 4910 6330 3130
+Wire Notes Line
+	6290 5150 6290 3140
+Text Notes 4230 2890 0    60   ~ 0
+Imax 5.5mA
 $EndSCHEMATC
