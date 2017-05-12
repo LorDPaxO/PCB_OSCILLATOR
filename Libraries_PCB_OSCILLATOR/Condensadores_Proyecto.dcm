@@ -8,6 +8,10 @@ $CMP 0.1uF
 D Unpolarized capacitor
 $ENDCMP
 #
+$CMP 0.47uF
+D Unpolarized capacitor
+$ENDCMP
+#
 $CMP 10uF
 D Polarized capacitor
 $ENDCMP

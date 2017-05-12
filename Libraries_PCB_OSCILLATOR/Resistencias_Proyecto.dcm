@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 100K
+D Resistor
+$ENDCMP
+#
+$CMP 10K
+D Resistor
+$ENDCMP
+#
 $CMP 1K
 D Resistor
 $ENDCMP

@@ -12,6 +12,11 @@ K 8 ld MSOP
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8421.pdf
 $ENDCMP
 #
+$CMP AD8651
+D 50 MHz, Precision, Low Distortion, Low Noise CMOS Op Amp
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/AD8651.pdf
+$ENDCMP
+#
 $CMP AD9833
 D Generador de señales 
 K 10 ld MSOP
@@ -21,13 +26,23 @@ $ENDCMP
 $CMP ADG819
 D CMOS 0.5 Ω SPDT Switch in SC70
 K 6 ld SC70
-F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG849.pdf
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG819.pdf
 $ENDCMP
 #
 $CMP ADG849
 D CMOS 0.5 Ω SPDT Switch in SC70
 K 6 ld SC70
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADG849.pdf
+$ENDCMP
+#
+$CMP ADP3303
+D 200 mA Low Dropout Linear Regulator
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADP3303.pdf
+$ENDCMP
+#
+$CMP ADR291
+D Precision Voltage References 2.5V
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADR291.pdf
 $ENDCMP
 #
 $CMP Jumper
