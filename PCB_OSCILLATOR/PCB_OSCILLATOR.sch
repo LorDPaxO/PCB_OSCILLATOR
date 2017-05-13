@@ -212,7 +212,7 @@ Text Notes 4710 3600 0    60   ~ 0
 AD8421_2
 Text Label 3360 5270 1    60   ~ 0
 BASE_WAVE
-Text Label 6740 6800 0    60   ~ 0
+Text Label 3870 2390 0    60   ~ 0
 BASE_WAVE
 Text Label 7120 2990 1    60   ~ 0
 WAVE_DDS_2
@@ -253,9 +253,9 @@ Text Label 1060 6730 0    60   ~ 0
 SCLK_AD5270_1
 Text Label 1060 6820 0    60   ~ 0
 _SYNC_AD5270_1
-Text Label 3530 6690 2    60   ~ 0
-A_AD5270_1
 Text Label 3530 6800 2    60   ~ 0
+A_AD5270_1
+Text Label 3530 6690 2    60   ~ 0
 W_AD5270_1
 Text Notes 1100 5940 0    60   ~ 0
 GAIN_CONTROL_1
@@ -288,9 +288,9 @@ Text Label 3850 6740 0    60   ~ 0
 SCLK_AD5270_2
 Text Label 3850 6830 0    60   ~ 0
 _SYNC_AD5270_2
-Text Label 6320 6700 2    60   ~ 0
-A_AD5270_2
 Text Label 6320 6810 2    60   ~ 0
+A_AD5270_2
+Text Label 6320 6700 2    60   ~ 0
 W_AD5270_2
 Text Notes 2210 6450 0    60   ~ 0
 AD5270_1
