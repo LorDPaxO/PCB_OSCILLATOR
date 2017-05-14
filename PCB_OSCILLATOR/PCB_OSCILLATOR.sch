@@ -318,9 +318,9 @@ Text Label 9360 1990 1    60   ~ 0
 SDATA_DDS_1
 Text Label 9560 1990 1    60   ~ 0
 FSYNK_DDS_1
-Text Label 10110 1980 1    60   ~ 0
-SCLK_DDS_2
 Text Label 10210 1980 1    60   ~ 0
+SCLK_DDS_2
+Text Label 10110 1980 1    60   ~ 0
 SDATA_DDS_2
 Text Label 10310 1980 1    60   ~ 0
 FSYNK_DDS_2
@@ -2262,4 +2262,6 @@ F 3 "" H 2610 5140 50  0000 C CNN
 	1    2610 5140
 	1    0    0    -1  
 $EndComp
+Text Label 6740 6800 0    60   ~ 0
+BASE_WAVE
 $EndSCHEMATC
