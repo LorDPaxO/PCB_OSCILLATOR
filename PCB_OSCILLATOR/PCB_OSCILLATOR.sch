@@ -328,24 +328,13 @@ Text Notes 7600 820  0    60   ~ 0
 PINES PROGRAMACIÓN 
 Text Label 7650 2940 1    60   ~ 0
 +5V
-Text Label 7750 2940 1    60   ~ 0
-GND
-$Comp
-L CONN_01X05 P1
-U 1 1 59168240
-P 7850 2520
-F 0 "P1" H 7850 2820 50  0000 C CNN
-F 1 "POWER SUPPLY" V 7950 2520 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x05" H 7850 2520 50  0001 C CNN
-F 3 "" H 7850 2520 50  0000 C CNN
-	1    7850 2520
-	0    -1   -1   0   
-$EndComp
 Text Label 7850 2940 1    60   ~ 0
-+12V
-Text Label 7950 2940 1    60   ~ 0
 GND
-Text Label 8050 2940 1    60   ~ 0
+Text Label 11500 2860 1    60   ~ 0
++12V
+Text Label 11700 2860 1    60   ~ 0
+GND
+Text Label 11600 2860 1    60   ~ 0
 -12V
 Text Label 6160 5320 1    60   ~ 0
 FINAL_WAVE
@@ -1638,13 +1627,13 @@ Wire Notes Line
 Wire Wire Line
 	7650 2720 7650 2940
 Wire Wire Line
+	11500 2640 11500 2860
+Wire Wire Line
 	7850 2720 7850 2940
 Wire Wire Line
-	7750 2720 7750 2940
+	11700 2640 11700 2860
 Wire Wire Line
-	7950 2720 7950 2940
-Wire Wire Line
-	8050 2720 8050 2940
+	11600 2640 11600 2860
 Wire Wire Line
 	6160 4490 6160 5320
 Wire Wire Line
@@ -1716,7 +1705,7 @@ Wire Wire Line
 Wire Wire Line
 	4140 9800 4630 9800
 Wire Wire Line
-	4630 10000 4530 10000
+	4530 10000 4630 10000
 Wire Wire Line
 	3750 10000 4330 10000
 Wire Wire Line
@@ -1762,7 +1751,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 9060 5180 9060
 Wire Wire Line
-	5500 8810 5500 8740
+	5500 8740 5500 8810
 Wire Wire Line
 	5500 8770 6010 8770
 Connection ~ 5500 8770
@@ -1933,8 +1922,6 @@ Wire Wire Line
 	9430 2910 9430 2750
 Wire Notes Line
 	10950 3030 11300 3030
-Wire Notes Line
-	11300 3030 11300 2230
 $Comp
 L 1K R3
 U 1 1 5921F95E
@@ -2264,4 +2251,38 @@ F 3 "" H 2610 5140 50  0000 C CNN
 $EndComp
 Text Label 6740 6800 0    60   ~ 0
 BASE_WAVE
+$Comp
+L CONN_01X04 P1
+U 1 1 5919FAF3
+P 7800 2520
+F 0 "P1" H 7800 2770 50  0000 C CNN
+F 1 "CONN_01X04" V 7900 2520 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 7800 2520 50  0001 C CNN
+F 3 "" H 7800 2520 50  0000 C CNN
+	1    7800 2520
+	0    -1   -1   0   
+$EndComp
+Text Label 7950 2940 1    60   ~ 0
+GND
+Wire Wire Line
+	7950 2720 7950 2940
+Text Label 7750 2940 1    60   ~ 0
++5V
+Wire Wire Line
+	7750 2720 7750 2940
+$Comp
+L CONN_01X04 P7
+U 1 1 591A1F24
+P 11650 2440
+F 0 "P7" H 11650 2690 50  0000 C CNN
+F 1 "CONN_01X04" V 11750 2440 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 11650 2440 50  0001 C CNN
+F 3 "" H 11650 2440 50  0000 C CNN
+	1    11650 2440
+	0    -1   -1   0   
+$EndComp
+Text Label 11800 2860 1    60   ~ 0
+GND
+Wire Wire Line
+	11800 2640 11800 2860
 $EndSCHEMATC
