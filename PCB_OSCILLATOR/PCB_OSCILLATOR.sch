@@ -330,12 +330,6 @@ Text Label 7650 2940 1    60   ~ 0
 +5V
 Text Label 7850 2940 1    60   ~ 0
 GND
-Text Label 11500 2860 1    60   ~ 0
-+12V
-Text Label 11700 2860 1    60   ~ 0
-GND
-Text Label 11600 2860 1    60   ~ 0
--12V
 Text Label 6160 5320 1    60   ~ 0
 FINAL_WAVE
 $Comp
@@ -1627,13 +1621,7 @@ Wire Notes Line
 Wire Wire Line
 	7650 2720 7650 2940
 Wire Wire Line
-	11500 2640 11500 2860
-Wire Wire Line
 	7850 2720 7850 2940
-Wire Wire Line
-	11700 2640 11700 2860
-Wire Wire Line
-	11600 2640 11600 2860
 Wire Wire Line
 	6160 4490 6160 5320
 Wire Wire Line
@@ -1840,86 +1828,6 @@ Wire Wire Line
 	2610 4990 2610 5040
 Wire Wire Line
 	5410 4990 5410 5020
-$Comp
-L 0.1uF C33
-U 1 1 592176A1
-P 8870 2660
-F 0 "C33" H 8880 2730 50  0000 L CNN
-F 1 "0.1uF" H 8880 2580 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8780 2630 50  0001 C CNN
-F 3 "" H 8880 2730 50  0001 C CNN
-F 4 "478-1395-2-ND" H 8980 2830 60  0001 C CNN "Digi-Key Part Number"
-	1    8870 2660
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10uF C36
-U 1 1 592176A8
-P 9160 2660
-F 0 "C36" H 9170 2730 50  0000 L CNN
-F 1 "10uF" H 9170 2580 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9070 2630 50  0001 C CNN
-F 3 "" H 9170 2730 50  0001 C CNN
-F 4 "490-5523-2-ND" H 9270 2830 60  0001 C CNN "25V"
-	1    9160 2660
-	1    0    0    -1  
-$EndComp
-Text Label 9120 2920 2    60   ~ 0
-GND
-Text Label 8900 2390 0    60   ~ 0
-+12V
-Wire Wire Line
-	8870 2560 8870 2390
-Wire Wire Line
-	8870 2390 9160 2390
-Wire Wire Line
-	9160 2390 9160 2560
-Wire Wire Line
-	9160 2760 9160 2920
-Wire Wire Line
-	9160 2920 8870 2920
-Wire Wire Line
-	8870 2920 8870 2760
-$Comp
-L 0.1uF C37
-U 1 1 5921789D
-P 9430 2650
-F 0 "C37" H 9440 2720 50  0000 L CNN
-F 1 "0.1uF" H 9440 2570 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9340 2620 50  0001 C CNN
-F 3 "" H 9440 2720 50  0001 C CNN
-F 4 "478-1395-2-ND" H 9540 2820 60  0001 C CNN "Digi-Key Part Number"
-	1    9430 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 10uF C38
-U 1 1 592178A4
-P 9720 2650
-F 0 "C38" H 9730 2720 50  0000 L CNN
-F 1 "10uF" H 9730 2570 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9630 2620 50  0001 C CNN
-F 3 "" H 9730 2720 50  0001 C CNN
-F 4 "490-5523-2-ND" H 9830 2820 60  0001 C CNN "25V"
-	1    9720 2650
-	1    0    0    -1  
-$EndComp
-Text Label 9680 2910 2    60   ~ 0
-GND
-Text Label 9460 2380 0    60   ~ 0
--12V
-Wire Wire Line
-	9430 2550 9430 2380
-Wire Wire Line
-	9430 2380 9720 2380
-Wire Wire Line
-	9720 2380 9720 2550
-Wire Wire Line
-	9720 2750 9720 2910
-Wire Wire Line
-	9720 2910 9430 2910
-Wire Wire Line
-	9430 2910 9430 2750
 Wire Notes Line
 	10950 3030 11300 3030
 $Comp
@@ -2270,6 +2178,90 @@ Text Label 7750 2940 1    60   ~ 0
 +5V
 Wire Wire Line
 	7750 2720 7750 2940
+Wire Wire Line
+	9430 2910 9430 2750
+Wire Wire Line
+	9720 2910 9430 2910
+Wire Wire Line
+	9720 2750 9720 2910
+Wire Wire Line
+	9720 2380 9720 2550
+Wire Wire Line
+	9430 2380 9720 2380
+Wire Wire Line
+	9430 2550 9430 2380
+Text Label 9460 2380 0    60   ~ 0
+-12V
+Text Label 9680 2910 2    60   ~ 0
+GND
+$Comp
+L 10uF C38
+U 1 1 592178A4
+P 9720 2650
+F 0 "C38" H 9730 2720 50  0000 L CNN
+F 1 "10uF" H 9730 2570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9630 2620 50  0001 C CNN
+F 3 "" H 9730 2720 50  0001 C CNN
+F 4 "490-5523-2-ND" H 9830 2820 60  0001 C CNN "25V"
+	1    9720 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF C37
+U 1 1 5921789D
+P 9430 2650
+F 0 "C37" H 9440 2720 50  0000 L CNN
+F 1 "0.1uF" H 9440 2570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9340 2620 50  0001 C CNN
+F 3 "" H 9440 2720 50  0001 C CNN
+F 4 "478-1395-2-ND" H 9540 2820 60  0001 C CNN "Digi-Key Part Number"
+	1    9430 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8870 2920 8870 2760
+Wire Wire Line
+	9160 2920 8870 2920
+Wire Wire Line
+	9160 2760 9160 2920
+Wire Wire Line
+	9160 2390 9160 2560
+Wire Wire Line
+	8870 2390 9160 2390
+Wire Wire Line
+	8870 2560 8870 2390
+Text Label 8900 2390 0    60   ~ 0
++12V
+Text Label 9120 2920 2    60   ~ 0
+GND
+$Comp
+L 10uF C36
+U 1 1 592176A8
+P 9160 2660
+F 0 "C36" H 9170 2730 50  0000 L CNN
+F 1 "10uF" H 9170 2580 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9070 2630 50  0001 C CNN
+F 3 "" H 9170 2730 50  0001 C CNN
+F 4 "490-5523-2-ND" H 9270 2830 60  0001 C CNN "25V"
+	1    9160 2660
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0.1uF C33
+U 1 1 592176A1
+P 8870 2660
+F 0 "C33" H 8880 2730 50  0000 L CNN
+F 1 "0.1uF" H 8880 2580 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8780 2630 50  0001 C CNN
+F 3 "" H 8880 2730 50  0001 C CNN
+F 4 "478-1395-2-ND" H 8980 2830 60  0001 C CNN "Digi-Key Part Number"
+	1    8870 2660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 2640 11800 2860
+Text Label 11800 2860 1    60   ~ 0
+GND
 $Comp
 L CONN_01X04 P7
 U 1 1 591A1F24
@@ -2281,8 +2273,16 @@ F 3 "" H 11650 2440 50  0000 C CNN
 	1    11650 2440
 	0    -1   -1   0   
 $EndComp
-Text Label 11800 2860 1    60   ~ 0
-GND
 Wire Wire Line
-	11800 2640 11800 2860
+	11600 2640 11600 2860
+Wire Wire Line
+	11700 2640 11700 2860
+Wire Wire Line
+	11500 2640 11500 2860
+Text Label 11600 2860 1    60   ~ 0
+-12V
+Text Label 11700 2860 1    60   ~ 0
+GND
+Text Label 11500 2860 1    60   ~ 0
++12V
 $EndSCHEMATC
