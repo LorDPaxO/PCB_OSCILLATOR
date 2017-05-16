@@ -1,6 +1,6 @@
 Source,C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/PCB_OSCILLATOR/PCB_OSCILLATOR.sch
 Kicad Rev,Eeschema 4.0.2-stable
-Generated Date,12/05/2017 10:54:57
+Generated Date,16/05/2017 15:09:27
 
 Title,Not Set
 Company,Not Set
@@ -14,7 +14,6 @@ U2,AD8421,LIBERIA_PCB_OSCILLATOR,AD8421
 U5,AD8421,LIBERIA_PCB_OSCILLATOR,AD8421
 U1,AD5270,LIBERIA_PCB_OSCILLATOR,AD5270
 U4,AD5270,LIBERIA_PCB_OSCILLATOR,AD5270
-P1,POWER SUPPLY,conn,CONN_01X05
 W2,TEST_1,conn,TEST_1P
 C11,0.01uF,478-1383-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.01uF
 C23,0.01uF,478-1383-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.01uF
@@ -77,18 +76,11 @@ C35,0.1uF,478-1395-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.1uF
 C34,10uF,,,490-5523-2-ND,,,,,,,,,Condensadores_Proyecto,10uF
 C39,0.1uF,478-1395-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.1uF
 C32,0.1uF,478-1395-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.1uF
-J15,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
 J14,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
-J12,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
 J13,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
-C33,0.1uF,478-1395-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.1uF
-C36,10uF,,,490-5523-2-ND,,,,,,,,,Condensadores_Proyecto,10uF
-C37,0.1uF,478-1395-2-ND,,,,,,,,,,,Condensadores_Proyecto,0.1uF
-C38,10uF,,,490-5523-2-ND,,,,,,,,,Condensadores_Proyecto,10uF
 R3,1K,,,,,,P21019TR-ND,,,,,,Resistencias_Proyecto,1K
 R4,10K,,,,,,,,311-10KARTR-ND,,,,Resistencias_Proyecto,10K
 R2,100K,,,,,,,,,311-100KCRTR-ND,,,Resistencias_Proyecto,100K
-J16,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
 U7,ADG819,LIBERIA_PCB_OSCILLATOR,ADG819
 U8,ADP3303,LIBERIA_PCB_OSCILLATOR,ADP3303
 W9,TEST_12,conn,TEST_1P
@@ -107,3 +99,8 @@ P3,SPI_AD5270_1,conn,CONN_01X04
 P4,SPI_AD5270_2,conn,CONN_01X04
 P5,SPI_AD9833_1,conn,CONN_01X03
 P6,SPI_AD9833_2,conn,CONN_01X03
+J16,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
+J15,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
+J12,Jumper,LIBERIA_PCB_OSCILLATOR,Jumper
+P1,CONN_01X04,conn,CONN_01X04
+P7,CONN_01X04,conn,CONN_01X04
