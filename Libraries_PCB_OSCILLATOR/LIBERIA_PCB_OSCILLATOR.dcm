@@ -40,6 +40,11 @@ D 200 mA Low Dropout Linear Regulator
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADP3303.pdf
 $ENDCMP
 #
+$CMP ADP3334
+D Adjustable Low Dropout Regulator
+F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADP3334.pdf
+$ENDCMP
+#
 $CMP ADR291
 D Precision Voltage References 2.5V
 F C:/Users/USUARIO/Documents/GitHub/PCB_OSCILLATOR/Datasheets/ADR291.pdf
